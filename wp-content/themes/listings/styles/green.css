@@ -1,0 +1,21 @@
+/* Style: Green */
+
+body { background: url(green/bg.png) repeat 0% 0%; }
+a:link, a:visited { color: #408E2E;}
+.widget a { color: black; }
+.tag_cloud a { color: white; text-shadow: black 0px 1px 1px; }
+#twitter-top { background: url(green/ico-twitter.png) no-repeat 0% 50%;}
+#navigation { background: url(green/nav-bg.png) repeat-x 50% 100%;}
+.nav li { background: url(green/nav-li.png) no-repeat 100% 0%;}
+h3.banner, div.fake-banner { background: url(green/title-bg.png) repeat-x;}
+.search_module { background: #669966;}
+#panbut span { background: url(green/panel_btn.png) no-repeat 50% 50%;}
+.search_title h2, .tags_title h2{ background: url(green/bg-search-title.jpg) repeat 0% 0%; }
+.search_main, .tag_cloud { background: #306e30; border: 1px solid #306e30; }
+#footer { background: url(green/footer-bg.png) repeat-x 0% 0%; }
+
+.nav li ul  { background: #FFF; position: absolute; left: -999em; width: 200px; border: 1px solid #000; border-width:1px 1px 0; z-index:999; background: #114211; }
+.nav li ul li  { border-top:1px solid #225c22; border-bottom:1px solid #062506; background: none; }
+.nav li ul li a:hover,
+.nav li ul li.current_page_item a,
+.nav li ul li.current-menu-item a { background:#062706; }

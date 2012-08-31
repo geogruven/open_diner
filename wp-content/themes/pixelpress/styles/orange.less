@@ -1,0 +1,61 @@
+// PINK ALT STYLE
+/* Imports */
+@import url(../css/mixins.less);
+
+// Colors 
+@color_links: #FF823A; // Links / Main theme colour 
+@color_body: #9E9E9E; // Body Copy
+// Borders
+@border_main: #e6e6e6; // The 1px grey rules used throughout the WF
+// Backgrounds
+@bg_header: #fff;
+// Gradients
+@grad_border: #FF823A;
+@grad_color_1: #FF823A;
+@grad_color_2: #FF823A + #222;
+
+body  { 
+	color: @color_body;
+	background: @bg_main;
+}
+
+a {
+	color: darken(@color_links, 20%);
+}
+
+#header-wrap {
+	background: @bg_header;
+}
+
+#featured {
+	position: relative;
+	.slide {
+		padding: 2.618em 0;
+		min-height: 350px;
+		.vertical_gradient(@grad_color_1, @grad_color_2);
+		.entry {
+			color:lighten(@color_links, 25%);
+			.text_shadow(1px,2px,0,rgba(0,0,0,0.2));
+		}
+	}
+}
+
+.section-title {
+	h1 {
+		color: #68B3AF !important;
+	}
+}
+
+// Buttons
+.follow-link a, a.button,
+a.woo-sc-button.custom,
+a.comment-reply-link, 
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+	border:1px solid @grad_border;
+	.vertical_gradient(@grad_color_1, @grad_color_2 - #333);
+	&:hover { .vertical_gradient(@grad_color_1, @grad_color_2 + #111); }
+}

@@ -1,0 +1,52 @@
+/* RED STYLESHEET */
+
+body  { background-color: #fbf7f7; }
+
+#navigation, #footer-widgets  {
+	border-color: #000;
+	/*BACKGROUND*/
+	background-color: #9e1111; /*FALLBACK*/
+}
+
+/*Main link color*/
+a:link, a:visited, #menu tbody .price, .widget_woo_specials h4 .price, .widget_woo_specialsmonthly h4 .price, .widget_recent_comments ul li a, .widget_woo_twitter ul li a  { color: #9e1111; }
+
+/*Main link hover color*/
+a:hover, .widget_woo_specials li h4 a:hover .price, .widget_woo_specialsmonthly h4 a:hover .price, .widget_recent_comments ul li a:hover, .widget_woo_twitter ul li a:hover { color: #810b0b; }
+
+/*Nav*/
+.nav a  { color:#efbebe;  }
+.nav li ul li a  { color:#efbebe!important; }
+
+/*Misc*/
+.nav li ul, #menu .info-bar .order a.active, #menu .info-bar .order a:hover, #footer-widgets #tabs .inside li img.avatar, #footer-widgets #tabs .inside li img.thumbnail  { background-color: #810b0b; }
+#header, #header .inside-header, #reservations span, #reservations span.heading, #menu .info-bar .order a.active, #menu .info-bar .order a:hover  { border-color: #810b0b; }
+#wootable-calendar-holder table tbody td.ui-datepicker-current-day a, #wootable-calendar-holder table tbody td.ui-datepicker-current-day a:hover  { background-color: #9e1111; color: #fff; text-shadow: 1px 1px #000; }
+
+
+/*Footer widgets*/
+#footer-widgets a  { color: #fff; text-decoration: underline; }
+#footer-widgets .widget ul li a, #footer-widgets .widget, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets .widget_woo_twitter h3 .username a, #footer-widgets #tabs ul.wooTabs li a, #footer-widgets #tabs .inside li, #footer-widgets #tab-tags a, #footer-widgets #tabs .inside li a, #footer-widgets .widget_tag_cloud a  { color: #fff; }
+#footer-widgets #tabs ul.wooTabs li a.selected, #footer-widgets #tabs ul.wooTabs li a:hover, #footer-widgets .widget_woo_flickr a:hover img, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets #tabs .inside  { background-color: #5c0808; }
+#footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets #tabs .inside li  { border-color: #5c0808;}
+#footer-widgets .widget h3  { color: #fff; }
+#footer-widgets .widget input.s  { background-color: #5c0808; border-color: #ae3b3b; }
+#wp-calendar th,#wp-calendar td{color:#9E9E9E;}
+#footer-widgets #tabs .inside li, #footer-widgets #tab-tags { background:#ae3b3b; }
+#footer-widgets #tabs .inside li span.meta  { color: #000; }
+#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover  { color: #fff!important; }
+
+
+/*Buttons*/
+a.button, a.comment-reply-link, #commentform #submit, .search_main .submit, input[type=submit].button, button.ui-state-default {
+	border: 1px solid #9e1111; border-bottom-color: #9e1111;
+	background: #9e1111; /*Fallback*/
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #9e1111), color-stop(1, #810b0b) );
+	background: -moz-linear-gradient( center top, #9e1111 20%, #810b0b 100% );
+}
+
+a.button:hover, a.button.hover, a.button.active, a.comment-reply-link:hover, #commentform #submit:hover, .search_main .submit:hover, input[type=submit].button:hover, button.ui-state-default:hover {
+	background: #830b0b; /*Fallback*/
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #830b0b), color-stop(1, #6c0808) );
+	background: -moz-linear-gradient( center top, #830b0b 20%, #6c0808 100% );
+}

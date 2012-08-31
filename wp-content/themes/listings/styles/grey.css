@@ -1,0 +1,6 @@
+/* Style: Grey */
+
+body { background: url(grey/bg.png) repeat 0% 0%; }
+a:link, a:visited { color: #408E2E;}
+.widget a, .tag_cloud a { color: black; }
+#twitter-top { background: url(grey/ico-twitter.png) no-repeat 0% 50%;}

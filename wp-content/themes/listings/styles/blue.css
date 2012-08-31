@@ -1,0 +1,100 @@
+/* Style: Blue */
+
+body { background: url(blue/bg.png) repeat 0% 0%; }
+a:link, a:visited { color: #2548bb;}
+.widget a { color: black; }
+.tag_cloud a { color: white; text-shadow: black 0px 1px 1px; }
+.post .meta ul li:hover { background: url(blue/meta-gr.jpg) no-repeat left;}
+#twitter-top { background: url(blue/ico-twitter.png) no-repeat 0% 50%;}
+#twitter-top li, #twitter-top li a { color: #000;}
+#navigation { background: url(blue/nav-bg.png) repeat-x 50% 100%;}
+.nav li { background: url(blue/nav-li.png) no-repeat 100% 0%;}
+h3.banner, div.fake-banner { background: url(blue/title-bg.png) repeat-x;}
+.search_module { background: #5e84a7;}
+#panbut span { background: url(blue/panel_btn.png) no-repeat 50% 50%;}
+.search_title h2, .tags_title h2{ background: url(blue/bg-search-title.jpg) repeat 0% 0%; }
+.search_main, .tag_cloud { background: #304e6e; border: 1px solid #304e6e; }
+#footer { background: url(blue/footer-bg.png) repeat-x 0% 0%; }
+
+.nav li ul  { background: #FFF; position: absolute; left: -999em; width: 200px; border: 1px solid #000; border-width:1px 1px 0; z-index:999; background: #112642; }
+.nav li ul li  { border-top:1px solid #223d5c; border-bottom:1px solid #061125; background: none; }
+.nav li ul li a:hover,
+.nav li ul li.current_page_item a,
+.nav li ul li.current-menu-item a { background:#09172e; }
+
+
+a.button, 
+a.comment-reply-link, 
+#commentform #submit,
+input.button {
+	display: inline-block;
+	border: 1px solid #223772;
+	border-bottom-color: #1e2e63;
+	
+	/*Background*/
+	background: #25387f; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #3c57a3),
+					color-stop(1, #253a7f)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#3c57a3 20%,
+					#253a7f 100%
+				);
+
+}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+a.comment-reply-link:hover, 
+#commentform #submit:hover,
+input.button:hover {
+	/*Background*/
+	background: #263d7e; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #2e428e),
+					color-stop(1, #263d7e)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#2e428e 20%,
+					#263d7e 100%
+				);
+}
+
+a.button:active,
+a.button.active,
+input.button:active  {
+	border-color: #2e428e;
+	
+}
+
+a.button.inactive,{
+	border: 1px solid #d5d5d5;
+	border-bottom-color: #e6e2e2;
+	color: #aeaeae;
+	
+	/*Background*/
+	background: #e8e8e8; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #f3f3f3),
+					color-stop(1, #e6e6e6)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#f3f3f3 20%,
+					#e6e6e6 100%
+				);
+	
+}

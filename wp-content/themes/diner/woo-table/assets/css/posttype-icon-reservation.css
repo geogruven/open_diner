@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------------------------------------
+
+FILE INFORMATION
+
+Description: CSS file included on custom post type screens for the WooTable WordPress plugin.
+Date Created: 2010-08-11.
+Author: Matty.
+Since: 0.0.0.1
+
+
+TABLE OF CONTENTS
+
+- Custom screen_icon() for custom post type
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------
+Custom screen_icon() for custom post type
+----------------------------------------*/
+
+#icon-edit { background: transparent url( '../icons/reservations_active_32.png' ) no-repeat; padding-left:10px; }

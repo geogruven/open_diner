@@ -1,0 +1,397 @@
+/*
+The styles in this stylesheet only apply to resolutions 768px and up
+
+CALCULATING DIMENSIONS:
+----------------------
+The layout is fluid. The sote wrapper (.col-full) has a fixed pixel max-width.
+All subsequent dimensions are calculated based on that fixed pixel width, using the formula: target / context = result
+Credit - http://www.alistapart.com/articles/fluidgrids/
+
+-----
+INDEX
+-----
+
+1. Global dropdown styles
+2. Top Navigation
+3. Main navigation dropdown menus
+ -3.1 General dropdown menus 
+4. Containers & Columns
+5. Footer widgets
+6. IE Fixes
+
+*/
+/*----------------------*/
+/*----------------------*/
+body {
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  /* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
+  ul.nav {
+    position: relative;
+    margin-bottom: 0;
+    /* LEVEL 2 */
+  
+    /* LEVEL 3 */
+  
+  }
+  ul.nav li {
+    position: relative;
+    float: left;
+    zoom: 1;
+    list-style: none;
+  }
+  ul.nav li a {
+    display: block;
+    padding: .53em 1em;
+    font-size: 1.2em;
+  }
+  ul.nav ul {
+    width: 11.089em;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    margin: 0;
+  }
+  ul.nav ul li {
+    float: none;
+  }
+  ul.nav ul li a {
+    width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+  
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+  
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  
+  }
+  ul.nav ul ul {
+    left: 100%;
+    top: 0;
+  }
+  ul.nav li:hover > ul {
+    visibility: visible;
+  }
+  /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
+  #top {
+    background: #000;
+    padding: 0 1.618em;
+  }
+  #top #top-nav {
+    display: block;
+  }
+  #top ul.nav {
+    font-size: .857em;
+    /* LEVEL 2 */
+  
+    /* LEVEL 3 */
+  
+  }
+  #top ul.nav > li a:hover {
+    background: #222;
+  }
+  #top ul.nav > li:hover {
+    background: #222;
+  }
+  #top ul.nav ul {
+    background: #222;
+  }
+  /* 3. MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
+  #navigation {
+    display: block !important;
+    clear: none;
+    float: left;
+  }
+  #navigation ul.nav {
+    /* LEVEL 2 */
+  
+    /* LEVEL 3 */
+  
+  }
+  #navigation ul.nav > li a:hover {
+    color: #5595a5;
+    background: #f2f7f8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  #navigation ul.nav > li:hover {
+    background: #f2f7f8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  #navigation ul.nav ul {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border: 0;
+    left: -1px;
+  }
+  #navigation ul.nav ul li a {
+    font-size: 1em;
+    color: #424242;
+  }
+  #navigation ul.nav ul li a:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  #navigation ul.nav ul ul {
+    top: -1px;
+    left: 100%;
+  }
+  h3.nav-toggle {
+    display: none;
+  }
+  #header #logo {
+    float: left;
+    margin-bottom: 0;
+  }
+  #header #header-right {
+    float: right;
+    clear: none;
+  }
+  #header #header-right #header-social {
+    margin: 0 0 0 6.854em;
+    float: right;
+  }
+  #header #main-nav {
+    float: left;
+  }
+  #header #main-nav li a {
+    padding-left: 1em;
+  }
+  /* 4. CONTAINERS & COLUMNS */
+  .layout-full #main,
+  .col-full {
+    max-width: 75.998em;
+    /* max-width:105.398em;  */
+  
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+  #main {
+    width: 68%;
+  }
+  #main.fullwidth {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 0;
+    width: 28%;
+  }
+  .entry img {
+    max-width: 100%;
+  }
+  .layout-full .entry img {
+    max-width: 100%;
+  }
+  .layout-right-content #main {
+    float: right;
+  }
+  .layout-right-content #sidebar {
+    float: left;
+  }
+  .layout-full #main {
+    width: 100%;
+  }
+  .col-left {
+    float: left;
+  }
+  .col-right {
+    float: right;
+  }
+  .page-template-template-contact-php .location-twitter .col-left {
+    float: left;
+  }
+  .page-template-template-contact-php .location-twitter #office-location {
+    width: 48%;
+    margin: 0;
+  }
+  .page-template-template-contact-php .location-twitter .contact-social {
+    float: right;
+    width: 48%;
+  }
+  .col-full,
+  #footer-widgets,
+  #footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #featured {
+    position: relative;
+  }
+  #featured ul.flex-direction-nav li a {
+    width: 5.874em;
+    height: 5.874em;
+  }
+  .section-title p span {
+    display: inline;
+  }
+  /* 5. FOOTER WIDGETS */
+  #footer-widgets .block {
+    margin-right: 3.8%;
+    float: left;
+  }
+  #footer-widgets.col-1 .block {
+    width: 100%;
+    float: none;
+  }
+  #footer-widgets.col-1 .footer-widget-1 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-2 .block {
+    width: 48%;
+  }
+  #footer-widgets.col-2 .footer-widget-2 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-3 .block {
+    width: 30.75%;
+  }
+  #footer-widgets.col-3 .footer-widget-3 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-4 .block {
+    width: 22.05%;
+  }
+  #footer-widgets.col-4 .footer-widget-4 {
+    margin-right: 0;
+  }
+  /* 6. HOMEPAGE */
+  /* Homepage Top Section */
+  .home #main section:first-child:after {
+    margin-top: 2em;
+  }
+  /* 6.1 Mini-Features */
+  #mini-features ul,
+  #home-blog ul {
+    float: left;
+    width: 100%;
+  }
+  #mini-features ul li,
+  #home-blog ul li {
+    float: left;
+    margin-right: 5.63%;
+    width: 29.58%;
+  }
+  #mini-features ul li {
+    padding-bottom: 0;
+  }
+  /* 6.2 Feedback */
+  #feedback ul li {
+    padding-right: 52px;
+    position: relative;
+  }
+  #feedback ul li .gravatar {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #feedback ul li .content {
+    padding: 0 0 0 82px;
+  }
+  #feedback ul li:nth-child(3n+0) {
+    margin-right: 0;
+  }
+  /* 6.3 Portfolio */
+  .home .minor.flexslider ul {
+    margin: 0;
+    list-style: none;
+  }
+  .home .minor.flexslider ul li {
+    float: left;
+  }
+  .home .minor.flexslider ul li .portfolio-item .content {
+    padding: 0 1.2em 0 0;
+  }
+  .home .minor.flexslider ul li.clear {
+    width: 100%;
+    margin: 0;
+  }
+  .home .minor.flexslider .flex-direction-nav li:first-child {
+    left: -6em;
+  }
+  .home .minor.flexslider .flex-direction-nav li:last-child {
+    right: -6em;
+  }
+  .home .minor.flexslider div.flex-direction-nav {
+    top: 46%;
+  }
+  /* 6.4 Blog */
+  #home-blog ul li .post {
+    padding-bottom: 0;
+  }
+  /* PORTFOLIO TEMPLATE */
+  #portfolio-gallery .portfolio-item {
+    margin: 1em 0.49%% 1em !important;
+  }
+  .single-portfolio .portfolio {
+    float: left;
+    width: 26%;
+  }
+  .single-portfolio .single-portfolio-gallery {
+    float: right;
+    width: 70%;
+  }
+  .single-portfolio #content .portfolio-item {
+    margin: 1em 0 1.618em;
+  }
+  /* 7. Archives */
+  /* FEATURES */
+  .post-type-archive-features .post .image-icon {
+    position: absolute;
+    left: -9.505em;
+    top: 0;
+  }
+  .post-type-archive-features .post .image-icon img {
+    background: none;
+    padding: 1.618em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+  }
+  /* 7. IE FIXES */
+  .ie7 #top-nav {
+    position: relative;
+    z-index: 9999999;
+  }
+  .ie7 #header {
+    position: relative;
+    z-index: 9999999;
+  }
+}
+@media only screen and (max-width: 958px) {
+  .entry img {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #header {
+    padding: 1.618em 0 !important;
+  }
+  #header #logo {
+    padding-left: 1em;
+  }
+  #header #header-right {
+    padding-right: 1em;
+  }
+  #header #header-right #header-social {
+    margin: 0 0 0 2.854em !important;
+  }
+  .home .minor.flexslider .flex-direction-nav {
+    display: none !important;
+  }
+}

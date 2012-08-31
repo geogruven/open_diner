@@ -1,0 +1,4 @@
+*** PixelPress Commerce Changelog ***
+
+2012.07.26 - version 1.0
+ * First release!

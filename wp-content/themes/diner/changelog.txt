@@ -1,0 +1,229 @@
+*** Diner Changelog ***
+
+2011.11.11 - version 1.8.3
+ * /includes/widgets/widget-woo-staff.php - Display only users from the current blog in a WordPress multisite installation, not from the entire network.
+ * template-staff.php - Display only users from the current blog in a WordPress multisite installation, not from the entire network.
+
+2011.11.08 - version 1.8.2
+ * style.css - Fixed z-index of the Homepage Intro Message Image (conflict with the menu dropdown)
+
+2011.09.28 - version 1.8.1
+ * style.css - Fixed @font-face
+ * includes/fonts/* - Replaced font files
+
+2011.09.14 - version 1.8.0
+ * /woo-table/classes/frontend.class.php, 
+   /woo-table/classes/manager.class.php, 
+   /woo-table/classes/posttype.class.php, 
+   /woo-table/classes/utilities.class.php - Add a filter ( 'wootable_reservation_status_label' ) on the reservation status labels.
+ * /woo-table/assets/woo-table.css - Make sure the reservation status text is white in the WordPress admin.
+
+2011.09.02 - version 1.7.0
+ * style.css - Added footer-widget styles
+ * footer.php - Added footer-widget areas
+ * includes/theme-options.php - Added footer-widget areas
+
+2011.08.25 - version 1.6.0
+ * /includes/theme-options.php - Added Video Embed custom field to the "post" post type.
+ * single.php - Added support for woo_embed() to the single "post" display.
+ * style.css - Added CSS styles to provide space below the video on the single "post" display.
+
+2011.08.05 - version 1.5.0
+ * /woo-table/classes/frontend.class.php - Base-level WPML support for Woo-Table frontend screens.
+ * /woo-table/classes/manager.class.php - Base-level WPML support for Woo-Table reservation management screen.
+ * /woo-table/classes/posttype.class.php - Base-level WPML support for reservations.
+ * /woo-table/widgets/business-hours.widget.php - Code optimisation.
+ * /woo-table/settings/screen.php - Code optimisation.
+ * /woo-table/classes/utilities.class.php - Translation string updates for WPML support.
+ * /woo-table/assets/js/functions-validate.js - Code optimisation
+ * /includes/theme-functions.php - Optimisations and Base-level WPML support.
+ * /includes/custom-post-types/custom-post-type-menu.php - Translation string updates for WPML support.
+ * /includes/featured.php - Translation string updates for WPML support..
+ * /includes/theme-custom-post-types.php - Translation string updates for WPML support.
+ * /lang/en_GB.po - Rescanned language file.
+ * template-contact.php - Translation string update for WPML support.
+ * page.php - Code optimisation for Base-level WPML support.
+ * template-menu.php - Translation string updates for WPML support.
+ * template-menu-full.php - Translation string updates for WPML support.
+ * single-woo_menu.php - Translation string updates for WPML support.
+ * search.php - Translation string updates for WPML support.
+ 
+
+2011.06.23 - version 1.4.2
+ * /woo-table/classes/factory.class.php - Fixed a bug in the display of business hours when in 12 hour format.
+
+2011.06.15 - version 1.4.1
+ * /includes/widgets/widget-woo-location.php - Fixed Google Maps marker label to display the address text.
+
+2011.06.13 - version 1.4
+ * includes/theme-options.php - Added "Image Crop Alignment" to post and menu post type 
+
+2011.06.06 - version 1.3.12
+ * style.css - Fixed navigation z-index
+
+2011.04.13 - version 1.3.11
+ * /woo-table/classes/factory.class.php - Fixed issue with certain closed hours not being removed from time select box.
+ * /includes/theme-functions.php - Added support for food menu posts to display in tag archives.
+
+2011.04.05 - version 1.3.10
+ * style.css - Updated @font-face to work in IE
+ * includes/fonts/leaguegothic.eot - Added file for IE explorer @font-face support
+ * css/ie7.css - Removed redundant font-size styling
+ * css/ie8.css - Removed redundant font-size styling
+
+2011.03.30 - version 1.3.9
+ * /woo-table/widgets/make-reservation.widget.php - Updated to include "at" string in translations.
+ * /lang/en_GB.po - Rescanned translation file.
+
+2011.03.29 - version 1.3.8
+ * /woo-table/classes/frontend.class.php - Updated confirmation message in Woo-Table "Make a Reservation" widget to translate day names.
+ * /lang/en_GB.po - Rescanned translation file.
+
+2011.03.23 - version 1.3.7
+ * /woo-table/classes/factory.class.php - Fixed a bug with the 30 minute time interval not displaying all times in the select box.
+
+2011.03.02 - version 1.3.6
+ * /woo-table/assets/js/functions.js - Fixed a bug with the AJAX requests and jQuery V1.4.4, bundled with WordPress 3.1.
+
+2011.02.19 - version 1.3.5
+ * /includes/widgets/widget-woo-specials.php - Changed span.details to div.details to be valid according to W3C.
+
+2011.02.17 - version 1.3.4
+ * /woo-table/classes/frontend.class.php - Fixed issue with multiple bookings on tables of the same number of seats at the same time and date.
+
+2011.02.01 - version 1.3.3
+ * template-location.php - Fixed directions popup to display using the locale entered under "Theme Options".
+
+2011.01.10 - version 1.3.2
+ * /woo-table/classes/frontend.class.php - Added support for default permalinks structure in "Manage" URLs sent in e-mails, as well as additional localisation support.
+ * /woo-table/classes/*.php - Added support for additional localisation.
+ * /woo-table/settings/screen.php - Added support for additional localisation.
+ * /woo-table/widgets/make-reservation.widget.php - Added support for additional localisation.
+ * /includes/widgets/widget-woo-location.php - Added support for additional localisation.
+ * /lang/en_GB.po - Regenerated language file to include updated translation strings.
+
+2011.01.04 - version 1.3.1
+ * template-menu.php - Adjusted food menu items to order by menu_order instead of ID.
+ * template-menu-full.php - Adjusted food menu items to order by menu_order instead of ID.
+ * includes/custom-post-types/custom-post-type-menu.php - Added support for page-attributes to handle ordering of food menu items.
+ * includes/theme-functions.php - Added filter to `posts_orderby` on `menutype` archives to support ordering by menu_order instead of ID.
+
+2011.01.03 - version 1.3.0
+ * template-menu.php - Removed post limits in food_menu posts as well as optimised query.
+ * template-menu-full.php - Removed post limits in food_menu posts as well as optimised query.
+ * includes/theme-functions.php - Added support for customisable "Send to friend" e-mails via the Theme Options.
+ * includes/theme-options.php - Added "Send to friend" e-mail options to the Theme Options.
+ * woo-table/classes/factory.class.php - Fixed logic in get_reserved_times_for_date().
+ * woo-table/classes/frontend.class.php - Modified and optimised get_table_to_seat() to work better with get_reserved_times_for_date().
+
+2010.12.14 - version 1.2.4
+ * woo-table/settings/screen.php - Fixed minor conflict between WooFramework security update and Woo-Table settings screen.
+
+2010.12.10 - version 1.2.3
+ * template-menu.php - Fixed bug with menu ordering when 10 or more menu types are present.
+ * template-menu-full.php - Fixed bug with menu ordering when 10 or more menu types are present.
+
+2010.12.06 - version 1.2.2
+ * woo-table/classes/frontend.class.php - Fixed bug in "status changed" e-mail sending.
+ * woo-table/classes/manager.class.php - Additional optimisation for "status changed" e-mail sending bug fix.
+
+2010.12.04 - version 1.2.1
+ * template-menu.php - Fixed warning message if no menu ordering is set.
+ * template-menu-full.php - Fixed warning message if no menu ordering is set.
+
+2010.11.30 - version 1.2.0
+ * includes/custom-post-types/custom-post-type-menu.php - Added ordering functionality to "Menu Types" taxonomy.
+ * template-menu.php - Implemented display ordering functionality for "Menu Types" taxonomy.
+ * template-menu-full.php - Implemented display ordering functionality for "Menu Types" taxonomy.
+ * style.css - Fixed business hours widget styling
+ * styles/*.css - Fixed alt style button hover for Webkit browsers
+ * woo-table/settings/process.php - Added additional fields to settings save process (for closed hours functionality).
+ * woo-table/settings/screen.php - Added additional fields to settings screen (for closed hours functionality).
+ * woo-table/classes/factory.class.php - Added support for closed hours functionality.
+ * woo-table/classes/posttype.class.php - Cleanup and added support for closed hours functionality.
+ * woo-table/assets/js/admin-functions.js - Cleanup on reservation "edit" screen in admin.
+
+2010.11.23 - version 1.1.3
+ * includes/custom-post-types/custom-post-type-menu.php - Removed "public" keyword from function that was causing a parse error.
+ * includes/theme-js.php - Swapped order of loopedSlider and general.js script enqueues, such that general.js is enqueued last.
+
+2010.11.22 - version 1.1.2
+ * template-menu.php - Added support for manual excerpts to the_content() on Food Menu items.
+ * template-menu-full.php - Added support for manual excerpts to the_content() on Food Menu items.
+
+2010.11.21 - version 1.1.1
+ * template-menu.php - Fixed bug causing a PHP error related to woo_food_menu_display().
+
+2010.11.15 - version 1.1.0
+ * single-woo_menu.php - Added support for multi-page menu items.
+ * template-location.php - Made directions popup draggable.
+ * template-menu-full.php - Added support for multi-level food menus.
+ * template-menu.php - Added support for multi-level food menus. Fixed a bug in the sorting JavaScript.
+ * woo-table/assets/js/functions.js - Added support for reservation updating.
+ * woo-table/classes/factory.class.php - Updated logic for time display, etc, to accommodate reservation updates.
+ * woo-table/classes/frontend.class.php - Added reservation update functionality. Added support for custom e-mail text via admin.
+ * woo-table/classes/manager.class.php - Added support for custom date format, reservation updates and cancellations. Added support for default permalinks on action URLs.
+ * woo-table/classes/posttype.class.php - Added support for reservation updates, not listing reserved times in time select box.
+ * woo-table/classes/wootable.class.php - Added additional default fields to setup.
+ * woo-table/settings/process.php - Added additional fields to settings save process.
+ * woo-table/settings/screen.php - Added additional fields to settings screen.
+ * style.css - Added styling for additional reservation management options (Cancel, confirm, update)
+
+2010.11.12 - version 1.0.10
+ * includes/theme-functions.php - fixed bug with saving custom field images
+
+2010.11.08 - version 1.0.9
+ * includes/widgets/widget-woo-location.php - Fixed issue with map type from the database not integrating correctly.
+ * includes/theme-functions.php - Fixed issue with directions e-mail message.
+
+2010.11.05 - version 1.0.8
+ * includes/widgets/widget-woo-location.php - Fixed issue with zoom level not being retrieved from database.
+
+2010.11.04 - version 1.0.7
+ * includes/js/museo.font.js - Updated cufon font file to support special characters
+ * template-menu.php - Fixed bug in "order by price" to accomodate currency strings with more than 1 character.
+ * template-menu-full.php - Fixed bug in "order by price" to accomodate currency strings with more than 1 character.
+
+2010.11.03 - version 1.0.6
+ * template-menu.php - Adjusted "order by price" to accomodate values over 1000.
+ * template-menu-full.php - Adjusted "order by price" to accomodate values over 1000.
+ * page.php - Adjusted conditional arround the get_sidebar() to fix sidebar display logic.
+ * includes/widgets/widget-woo-location.php - Added ID base for use with Google Maps JS call.
+ * footer.php - Added condition to include the Google Maps JS if the Woo - Location widget is active on the page.
+
+2010.11.02 - version 1.0.5
+ * /functions/ - FRAMEWORK UPDATE
+ * includes/theme-options.php - added icons
+ * page.php - Fixed sidebar logic.
+ * woo-table/classes/wootable.class.php - Updated call to register_tables() in init() to use internal variables.
+ * woo-table/assets/js/functions.js - Updated confirmation message logic.
+ * woo-table/assets/js/admin-functions.js - Fixed issue with datepicker date selection and updated the times select box to use updated logic.
+ * woo-table/classes/factory.class.php - Updated display_changed_times() and get_times_between() to use after midnight logic.
+ * woo-table/classes/frontend.class.php - Updated time select box to use the display_changed_times() function. Updated ajax_functions() with new display_changed_times().
+ * woo-table/classes/posttype.class.php - Updated reservations admin to use new display_changed_times() function.
+ * woo-table/settings/screen.php - Added field for time format and commented out days array (already declared in process.php).
+ * woo-table/settings/process.php - Added field for time format to the fields array.
+ * woo-table/widgets/business-hours.widget.php - Added a field for time format to the widget control and implemented functionality in widget content.
+ * woo-table/widgets/make-reservation.widget.php - Updated to use new display_changed_times() function.
+ * includes/theme-functions.php - Updated JS to fix bug with ratings not saving to the database.
+
+2010.10.28 - version 1.0.4
+ * style.css - Fixed navigation z-index.
+
+2010.10.26 - version 1.0.3
+ * style.css - Removed CSS3 gradient to fix nav hover bug in Chrome & improve performance. Fixed a nav hover Cufon related bug.
+ * styles/*.css - Removed CSS3 gradient to fix nav hover bug in Chrome & improve performance.
+ 
+
+2010.10.25 - version 1.0.2
+ * template-location.php - regex fix on email js function
+ * template-menu.php - regex fix on email js function
+ * template-menu-full.php - regex fix on email js function
+ * /includes/custom-post-types/custom-post-type-menu.php - fixed initial content install function
+ * /woo-table/assets/js/admin-functions.js - fixed reservation datepicker js
+
+2010.10.18 - version 1.0.1
+ * style.css - removed inset shadow on #content (line 165)
+	
+2010.10.14 - version 1.0.0
+ * First release!

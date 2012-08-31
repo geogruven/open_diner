@@ -1,0 +1,308 @@
+*** Listings Changelog ***
+
+2012.07.18 - version 1.6.1
+ * /includes/theme-functions.php - fixed bug with output buffer open and close
+ * /includes/categories-panel.php - localized "Listing".
+ 
+2012.06.21 - version 1.6.0
+ * MAJOR UPDATE - Search Logic updated to accomodate 3.4 changes as well as pagination issues with query_posts
+ * /includes/theme-functions.php - added filter for search results to fix issues with query_posts and improved the search logic to leverage WordPress functionality more, added filter for pagination issues since 3.4
+ * search.php - modifications to fix the query_posts issues
+
+2012.05.31 - version 1.5.5
+ * /includes/content-builder/admin-content-builder.php - added timestamp custom field
+ * /includes/upload-listing/process.php - added action 'woo_custom_upload_action' to run after form uploads
+ * /includes/theme-functions.php - added function to output drop down custom field values instead of indexes
+ * /includes/theme-widgets.php - fixed loading of widgets for child themes
+ * search-form.php - fix for radio button items
+
+2012.01.26 - version 1.5.4
+ * functions.php - made child theme friendly
+
+2012.01.23 - version 1.5.3
+ * style.css - Removed unused image declarations
+
+2012.01.21 - version 1.5.2
+ * /includes/theme-actions.php - changed background-color to background in "Add Custom Styling to HEAD" $body_color variable (line 64)
+
+2012.01.18 - version 1.5.1
+ * /includes/content-builder/admin-content-builder.php - Bugfix for WordPress SEO plugin XML sitemaps.
+ * includes/theme-options.php - added option for site description
+ * includes/theme-actions.php - added <p> to general custom typography 
+
+2012.01.04 - version 1.5.0
+ * header.php - Load twitter image in HTML so it is clickable
+ * style.css - Tweaks to header twitter styling, Subscribe and Connect styling
+ * /includes/theme-options.php - added theme options for subscribe and connect functionality
+ * single.php, 
+   single-listing.php - added output for subscribe and connect area
+ * includes/theme-functions.php - added subscribe and connect functionality
+ * /images/ico-subscribe-social.png - images for subscribe and connect
+ * /includes/theme-widgets.php, 
+   /includes/widgets/widget-woo-subscribe.php - added subscribe and connect widget
+
+2011.12.14 - version 1.4.4
+ * /includes/content-builder/admin-content-builder.php - Add icons to each of the Content Builder tabs. Add a CSS class to the #woo_container DIV tag determining the current action being executed by the Content Builder (add, edit, manage).
+ * /includes/content-builder/css/content-builder.css - Styling update for WordPress 3.3 and WooFramework 5.0.0 compatibility.
+
+2011.12.12 - version 1.4.3
+ * /includes/theme-functions.php - Upgrade Woo - Tabs comment function to use get_comments().
+
+2011.11.22 - version 1.4.2
+ * /includes/content-builder/admin-content-builder.php - fix to force no apostrophe chars in name fields in the content builder
+ 
+2011.11.17 - version 1.4.1
+ * /includes/widgets/widget-woo-mapsoverview.php - Upgraded Google Maps API to V3 - was missing from 1.4.0 update
+
+2011.11.02 - version 1.4.0
+ * /includes/archive-maps.php - Upgraded Google Maps API to V3
+ * /includes/theme-functions.php - Upgraded Google Maps API to V3, Bugfix for categories panel taxonomy images in woo_get_posts_in_taxonomy(), Bugfix for Search Results Logic
+ * /includes/theme-options.php - Removed Google Maps API key, as V3 does not require an API key
+ * /includes/content-builder/admin-content-builder.php - fix to force ajax call to check response type
+ * /includes/js/markers.js - Upgraded Google Maps API to V3
+ * header.php - Upgraded Google Maps API to V3
+ * index.php - replaced includes with get_template_part() for search form
+ * search-form.php - added handler for index.php change
+ * single-listing.php - Upgraded Google Maps API to V3
+ * style.css - Fix for search autocomplete matches getting cut off by the end of the search panel
+ * template-custom-post-types-index.php - Removed restriction on post types from listings to any
+ * template-full-map.php - Upgraded Google Maps API to V3
+ 
+2011.10.31 - version 1.3.14
+ * /includes/content-builder/admin-content-builder.php - Registered and enqueued admin interface CSS file from the WooFramework within the Content Builder.
+
+2011.10.17 - version 1.3.13
+ * includes/content-builder/admin-content-builder.php - Added support for hierarchical taxonomy URL's into the Content Builder
+ 
+2011.09.21 - version 1.3.12
+ * header.php - Removed Cufon
+ * includes/theme-actions.php - Load default Google font
+ * includes/theme-js.php - Remove cufon
+ * includes/js/museo.font.js - Deleted
+ * includes/js/cufon-yui.js - Deleted
+ * style.css - Some styling for new Google font
+
+2011.09.05 - version 1.3.11
+ * style.css - made single page gallery height auto adjust
+ * /includes/latest-listings.php - added suppress_filters param for WPML
+ 
+2011.08.17 - version 1.3.10
+ * /includes/categories-panel.php - date loop bugfix, View All link logic fix
+ * /includes/latest-listings.php - View All link logic fix
+ * /includes/content-builder/admin-content-builder.php - fixes ajax issue on cancel button
+ * template-custom-post-types-index.php - php warning message removed
+ * search-form.php - fixed issue on autocomplete with multiple search filters
+ 
+2011.08.05 - version 1.3.9
+ * includes/theme-options.php, 
+   includes/theme-actions.php - updated slider speed options
+
+2011.07.27 - version 1.3.8
+ * style.css - Fixed slider pagination z-index
+
+2011.07.23 - version 1.3.7
+ * search.php,
+   taxonomy.php,
+   includes/theme-functions.php,
+   latest-listings.php,
+   archive.php,
+   search-form.php,
+   single-listing.php,
+   archive-listing.php - added stripslashes and removed gettext from options
+ 
+2011.07.21 - version 1.3.6
+ * /includes/theme-options.php - added additional error checking.
+ * /includes/content-builder/admin-content-builder.php - added additional error checking. Stripped out slashes from label and description in Content Builder fields/posts/taxonomies list.
+ 
+2011.07.18 - version 1.3.5
+ * /includes/theme-functions.php - Fix for Google Maps zoom level for Chrome.
+ * template-custom-post-types-index.php - Fix for image output
+ 
+2011.07.12 - version 1.3.4
+ * /includes/upload-list/form-field-custom-fields.php - Stripped slashes from custom field labels.
+
+2011.07.11 - version 1.3.3
+ * includes/theme-functions.php - Closed IMG tag
+ * single-listing.php - Closed div TAG
+ * search-form.php - Fixed script tag and label id
+
+2011.07.07 - version 1.3.2
+ * /includes/categories-panel.php - fixed missing date from Latest Listing
+ 
+2011.07.05 - version 1.3.1
+ * /includes/featured.php - updated to use slidesjs instead of loopedslider
+ * /includes/theme-actions.php - updated to use slidesjs instead of loopedslider
+ * /includes/theme-js.php - updated to use slidesjs instead of loopedslider
+ * /includes/theme-options.php - updated to use slidesjs instead of loopedslider
+ * header.php - removed old loopedslider js
+ * index.php - updated to use get_template_part() instead of includes
+ * style.css - updated loopedslider styling for new js
+ 
+2011.07.04 - version 1.3.0
+ * /includes/categories-panel.php - fixed major performance issue on large sites, updated links for custom post types archives
+ * /includes/theme-functions.php - optimized the woo_get_posts_in_taxonomy() query to use cached query, fixed bulk edit bug with custom post types, fixed date bug with the search logic
+ * /includes/latest-listings.php - fixed to use get_template_part()
+ * index.php - changed to use get_template_part() instead of include
+ * template-custom-post-types-index.php - updated to use new optimized query
+
+2011.06.13 - version 1.2.20
+ * style.css - Fixed listing display bug for IE6 & IE7
+
+2011.06.13 - version 1.2.19
+ * /includes/theme-functions.php - Make sure listings contributors can edit their own listings.
+ * single-listing.php - fixed related listings query to use tax_query and not to output related listings if they are not in the related taxonomy
+
+2011.05.16 - version 1.2.18
+ * taxonomy.php - fixed term_id for RSS Feed link
+
+2011.05.09 - version 1.2.17
+ * /includes/categories-panel.php - added additional error checking, setup message panel.
+ * /includes/content-builder/admin-content-builder.php - added additional error checking.
+ * /includes/featured.php - added setup message panel.
+ * /includes/theme-functions.php - added additional error checking.
+ * /includes/theme-options.php - added additional error checking.
+ * index.php - added additional error checking, setup message panel.
+ * search-form.php - added additional error checking.
+ * single-listing.php - fixed postid on thumbnail load.
+ 
+2011.05.03 - version 1.2.16
+ * /includes/theme-functions.php - added additional sanitization on input keyword to handle apostrophes in the title, updated pagination to use woo-pagination
+ * /includes/theme-options.php - added theme option for woo-pagination
+ * style.css - updated pagination styles
+ 
+2011.04.24 - version 1.2.15
+ * /includes/categories-panel.php - added a styling fix for categories panel
+ 
+2011.04.21 - version 1.2.14
+ * /includes/latest-listings.php - added a styling fix for latest listings panel
+
+2011.04.19 - version 1.2.13
+ * /includes/theme-actions.php - fixed custom typography to work properly
+
+2011.04.11 - version 1.2.12
+ * style.css - Fixed search panel close button z-index
+ * /includes/theme-functions.php - added 'has_archive' to theme installation function, defaults to true
+ * /includes/content-builder/admin-content-builder.php - add 'has_archive' to the content builder, defaults to false
+ * archive-listing.php - added file to handle listings post type archive
+
+2011.04.07 - version 1.2.11
+ * style.css - Added styling for custom field descriptions on Upload  a Listing page template
+
+2011.04.06 - version 1.2.10
+ * /includes/content-builder/admin-content-builder.php - Fixed edit and delete link for custom fields in content builder to use admin_url().
+ 
+2011.03.30 - version 1.2.9
+ * /includes/content-builder/admin-content-builder.php - Additional foreach validation. Added attribute escaping to label, singular name and description fields.
+ * /includes/upload-listing/load_js.php - Modified call to jQuery.validate to look in the Content Builder folder.
+ * search.php - fixed the search to output what keywords where searched for.
+ 
+2011.03.28 - version 1.2.8
+ * /includes/content-builder/admin-content-builder.php - Prepared label field validation for transfer to PHP, additional foreach validation.
+ * /includes/theme-functions.php - additional foreach validation.
+ * search-form.php - additional foreach validation.
+ 
+2011.03.22 - version 1.2.7
+ * style.css - Fixed a couple of styling bugs in the drop down menus
+ * images/arrow-superfish-right.png - Adjusted opacity on image
+ * /includes/js/museo.font.js - Updated cufon to include copyright symbol
+
+2011.03.14 - version 1.2.6
+ * /includes/content-builder/admin-content-builder.php - added fix for jquery error message conflict
+ * template-custom-post-types-index.php - add div fix for item wrapper
+ 
+2011.03.09 - version 1.2.5
+ * /includes/categories-panel.php - fixed handler for zero count taxonomies
+ * template-custom-post-types-index.php - fixed handler for zero count taxonomies
+ 
+2011.03.07 - version 1.2.4
+ * /includes/categories-panel.php - fixed localization for string variable instead of decimal
+ * /includes/templates-custom-post-types-index.php - fixed localization for string variable instead of decimal
+ * /includes/archive-maps - added functionality for users who want to customize the search and add a search map for search results
+ * template-full-map.php - added page template for full page map of all listings map markers
+ 
+2011.03.06 - version 1.2.3
+ * /includes/woo-upload-listing-form.php - fixed missing localization
+ * /includes/categories-panel.php - fixed missing localization
+ * /includes/templates-custom-post-types-index.php - fixed missing localization
+ * lang/en_GB.po - new language file
+
+2011.03.02 - version 1.2.2
+ * /includes/theme-functions.php - fixed on activation bug for Google Maps fields
+ 
+2011.02.28 - version 1.2.1
+ * /includes/theme-functions.php - fixed custom field bug in search logic and search header function
+ 
+2011.02.16 - version 1.2.0
+ * /includes/archive-maps.php - added overview map for taxonomy archives
+ * /includes/categories-panel.php - fixed taxonomy counter and moved more listings into separate file
+ * /includes/featured.php - featured panel now works for any post type
+ * /includes/latest-listings.php - moved from categories panel into its own file, optimized the query
+ * /includes/theme-functions.php - added Latest Posts Custom Query, and optimized search header function
+ * /includes/theme-options.php - added Archive Maps theme options, added filter for child themes to change theme options and ids to headers 
+ * /index.php - fixed double line bottom border on search panel, added latest listings include
+ * /search.php - optimized the header code and search query logic, fixed more listings link through, fixed meta data output for image overlay field
+ * /style.css - fixed double line bottom border and added archive maps styling
+ * /taxonomy.php - added overview map
+ * /template-custom-post-types-index.php - fixed taxonomy counter
+ 
+2011.02.10 - version 1.1.7
+ * /includes/upload-listing/form-field-custom-fields.php - Added fix for error messages when no custom fields are available for the form.
+ * /includes/upload-listing/process.php - Added fix for error messages when no custom fields are available for the form.
+
+2011.02.09 - version 1.1.6
+ * taxonomy.php - fixed taxonomy template for custom field image caption.
+
+2011.02.03 - version 1.1.5
+ * /includes/theme-options.php - added additional error checking for SEO settings
+ * /search.php - added fix for search by "All" for drop downs
+ * /includes/theme-options.php - Added popular keywords limit theme option.
+ * /search-form.php - Added popular keywords limiting logic.
+
+2011.02.02 - version 1.1.4
+ * style.css - Changed loopedSlider z-index to fix drop down navigation disappearing behind content
+
+2011.02.01 - version 1.1.3
+ * search.php - bugfix for search form custom field drop down
+ * search-form.php - bugfix for search form custom field drop down
+ * /includes/theme-functions.php - bugfix for search form custom field drop down
+ * /includes/theme-options.php - SEO bugfix for content builder
+ * /includes/content-builder/admin-content-builder.php - fixed whitespace stripping for post type, taxonomy, and custom field names
+ 
+2011.01.25 - version 1.1.2
+ * search.php - bugfix for search results
+ * /includes/theme-functions.php - bugfix for searching through limited amount of listings
+ 
+2011.01.18 - version 1.1.1
+ * footer.php - Added seperator for when not on homepage
+ * style.css - Added style for divider
+ * styles/*.css - Added style for divider
+
+2011.01.13 - version 1.1.0
+ * /includes/content-builder/admin-content-builder.php - Updated interface and logic to accommodate custom fields for taxonomies.
+ * /includes/content-builder/taxonomyfields.class.php - Functionality to add custom fields capabilities to taxonomies.
+ * /includes/content-builder/css/content-builder.css - Added styling for specialised custom fields.
+ * /includes/content-builder/js/taxonomy.js - Added custom JavaScript calls pertaining to specialised custom fields.
+
+2011.01.13 - version 1.0.6
+ * style.css - Removed style so that google maps displays pan and zoom controls.
+
+2011.01.10 - version 1.0.5
+ * archive.php - Fixed bug on handling tags for any post type.
+ * /includes/content-builder/admin-content-builder.php - Fixed bug with deleting custom taxonomies, custom fields and custom post types, as well as edit and delete admin link bug.
+ 
+2011.01.04 - version 1.0.4
+ * /includes/content-builder/admin-content-builder.php - Added Content Builder reset functionality, as well as support for preserving Content Builder content.
+ * /includes/theme-functions.php - Added Content Builder reset functionality, as well as support for preserving Content Builder content.
+
+2011.01.03 - version 1.0.3
+ * /includes/content-builder/admin-content-builder.php - fixed bug on drop down and radio button custom fields creation, lowercase names enforced, and default text bug fixed
+ 
+2010.12.28 - version 1.0.2
+ * taxonomy.php, search.php, categories-panel.php - updated translation gettext
+ * lang/listings.po - updated strings
+
+2010.12.23 - version 1.0.1
+ * header.php - disable cufon if custom typography is used
+	
+2010.12.20 - version 1.0.0
+ * First release!

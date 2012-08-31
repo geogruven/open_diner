@@ -1,0 +1,63 @@
+/* Imports */
+body {
+  color: #9e9e9e;
+  background: #f1f1f1;
+}
+#header-wrap {
+  background: #ffffff;
+}
+#featured {
+  position: relative;
+}
+#featured .slide {
+  padding: 2.618em 0;
+  min-height: 350px;
+  background: #f2c45a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2c45a), to(#e1d57c));
+  background: -webkit-linear-gradient(#f2c45a, #e1d57c);
+  background: -moz-linear-gradient(center top, #f2c45a 0%, #e1d57c 100%);
+  background: -moz-gradient(center top, #f2c45a 0%, #e1d57c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#e1d57c);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#e1d57c)";
+}
+#featured .slide .entry {
+  color: #817832;
+}
+.section-title h1 {
+  color: #68B3AF !important;
+}
+.follow-link a,
+a.button,
+a.woo-sc-button.custom,
+a.comment-reply-link,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+  border: 1px solid #F2C45A;
+  background: #f2c45a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2c45a), to(#bfb35a));
+  background: -webkit-linear-gradient(#f2c45a, #bfb35a);
+  background: -moz-linear-gradient(center top, #f2c45a 0%, #bfb35a 100%);
+  background: -moz-gradient(center top, #f2c45a 0%, #bfb35a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#bfb35a);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#bfb35a)";
+}
+.follow-link a:hover,
+a.button:hover,
+a.woo-sc-button.custom:hover,
+a.comment-reply-link:hover,
+#commentform #submit:hover,
+.submit:hover,
+input[type=submit]:hover,
+input.button:hover,
+button.button:hover {
+  background: #f2c45a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2c45a), to(#d0a238));
+  background: -webkit-linear-gradient(#f2c45a, #d0a238);
+  background: -moz-linear-gradient(center top, #f2c45a 0%, #d0a238 100%);
+  background: -moz-gradient(center top, #f2c45a 0%, #d0a238 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#d0a238);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#d0a238)";
+}

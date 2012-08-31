@@ -1,0 +1,4 @@
+*** PixelPress Changelog ***
+	
+2012.07.17 - version 1.0
+ * First release!

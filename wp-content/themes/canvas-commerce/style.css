@@ -1,0 +1,91 @@
+/*
+Theme Name:     Canvas Commerce
+Theme URI:      http: //woothemes.com/
+Description:    Child theme which optimises Canvas for WooCommerce compatibility 
+Author:         WooThemes
+Author URI:     http: //woothemes.com
+Template:       canvas
+Version:        1.0.8
+*/
+
+@import url("../canvas/style.css");
+@import url("woocommerce/css/style.css");
+@import url("../canvas/custom.css");
+@import url("custom.css");
+
+/* Remove #main-sidebar-container from these css rules. No need for it and it breaks the layout */
+
+.two-col-left #main {width:610px; float:left; display:inline; }
+.two-col-left #sidebar {width:300px; float:right; display:inline; }
+.two-col-left-1200 #main { width:800px; }
+.two-col-left-1200 #sidebar{width:370px; float:right; display:inline; }
+.two-col-left-980 #main { width:650px; }
+.two-col-left-960 #main { width:630px; }
+.two-col-left-880 #main { width:550px; }
+.two-col-left-760 #main { width:480px; }
+.two-col-left-880 #sidebar { width:300px; }
+.two-col-left-760 #sidebar { width:250px; }
+
+
+.two-col-right #main {width:610px; float:right; display:inline; }
+.two-col-right #sidebar {width:300px; float:left; display:inline; }
+.two-col-right-1200 #main { width:800px; }
+.two-col-right-1200 #sidebar {width:370px; float:left; display:inline; }
+.two-col-right-980 #main { width:650px; }
+.two-col-right-960 #main { width:630px; }
+.two-col-right-880 #main { width:550px; }
+.two-col-right-880 #sidebar { width:300px; }
+.two-col-right-760 #main { width:480px; }
+.two-col-right-760 #sidebar { width:250px; }
+
+.three-col-left #main {width:440px; float:left; display:inline; }
+.three-col-left #sidebar {width:300px; float:right; display:inline; }
+.three-col-left #sidebar-alt { float:right; width:160px; margin:0; display:inline;  } 
+.three-col-left-1200 #main { width:680px; }
+.three-col-left-1200 #sidebar-alt { float:right; width:180px; margin:0; display:inline;  } 
+.three-col-left-980 #main { width:480px; }
+.three-col-left-960 #main { width:460px; }
+.three-col-left-880 #main { width:420px; }
+.three-col-left-880 #sidebar { width:300px; }
+.three-col-left-880 #sidebar-alt { width:120px; } 
+.three-col-left-760 #main { width:350px; }
+.three-col-left-760 #sidebar { width:250px; }
+.three-col-left-760 #sidebar-alt { width:120px; } 
+
+.three-col-middle #main {width:440px; float:left; display:inline; }
+.three-col-middle #sidebar {width:300px; float:right; display:inline; }
+.three-col-middle #sidebar-alt { float:left; width:160px; margin:0; display:inline;  } 
+.three-col-middle-1200 #main { width:680px; }
+.three-col-middle-1200 #sidebar-alt { float:left; width:180px; margin:0; display:inline;  } 
+.three-col-middle-980 #main { width:480px; }
+.three-col-middle-960 #main { width:460px; }
+.three-col-middle-880 #main { width:420px; }
+.three-col-middle-880 #sidebar { width:300px; }
+.three-col-middle-880 #sidebar-alt { width:120px; } 
+.three-col-middle-760 #main { width:350px; }
+.three-col-middle-760 #sidebar { width:250px; }
+.three-col-middle-760 #sidebar-alt { width:120px; } 
+
+.three-col-right #main {width:440px; float:right; display:inline; }
+.three-col-right #sidebar {width:300px; float:left; display:inline; }
+.three-col-right #sidebar-alt { float:left; width:160px; margin:0; display:inline;  } 
+.three-col-right-1200 div#wrapper #main { width:680px; }
+.three-col-right-1200 #sidebar-alt { float:left; width:180px; margin:0; display:inline;  } 
+.three-col-right-980 div#wrapper #main { width:480px; }
+.three-col-right-960 div#wrapper #main { width:460px; }
+.three-col-right-880 #main { width:420px; }
+.three-col-right-880 #sidebar { width:300px; }
+.three-col-right-880 #sidebar-alt { width:120px; } 
+.three-col-right-760 #main { width:350px; }
+.three-col-right-760 #sidebar { width:250px; }
+.three-col-right-760 #sidebar-alt { width:120px; } 
+
+.one-col .col-left { float: none; }
+
+/* Clearfix the wrapper now that we're not using #main-sidebar-container */
+
+#wrapper:after { content:""; display: block; clear: both; }
+
+/* And clear the footer which lives in the #wrapper */
+
+#footer-widgets { clear: both; }

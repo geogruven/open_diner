@@ -1,0 +1,98 @@
+/* Style: Yellow */
+
+body { background: url(yellow/bg.png) repeat 0% 0%; }
+a:link, a:visited { color: #bbaf25;}
+.widget a { color: black; }
+.tag_cloud a { text-shadow: #333 0px 1px 1px; }
+.post .meta ul li:hover { background: url(yellow/meta-gr.jpg) no-repeat left;}
+#twitter-top { background: url(yellow/ico-twitter.png) no-repeat 0% 50%;}
+#navigation { background: url(yellow/nav-bg.png) repeat-x 50% 100%;}
+.nav li { background: url(yellow/nav-li.png) no-repeat 100% 0%;}
+h3.banner, div.fake-banner { background: url(yellow/title-bg.png) repeat-x;}
+.search_module { background: #a0a05a;}
+#panbut span { background: url(yellow/panel_btn.png) no-repeat 50% 50%;}
+.search_title h2, .tags_title h2{ background: url(yellow/bg-search-title.jpg) repeat 0% 0%; }
+.search_main, .tag_cloud { background: #6e6e30; border: 1px solid #6e6e30; }
+#footer { background: url(yellow/footer-bg.png) repeat-x 0% 0%; }
+
+.nav li ul  { background: #FFF; position: absolute; left: -999em; width: 200px; border: 1px solid #000; border-width:1px 1px 0; z-index:999; background: #424211; }
+.nav li ul li  { border-top:1px solid #5c5c22; border-bottom:1px solid #252506; background: none; }
+.nav li ul li a:hover,
+.nav li ul li.current_page_item a,
+.nav li ul li.current-menu-item a { background:#272706; }
+
+a.button, 
+a.comment-reply-link, 
+#commentform #submit,
+input.button {
+	display: inline-block;
+	border: 1px solid #726a22;
+	border-bottom-color: #635d1e;
+	
+	/*Background*/
+	background: #7f7825; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #a39b3c),
+					color-stop(1, #7f7825)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#a39b3c 20%,
+					#7f7825 100%
+				);
+
+}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+a.comment-reply-link:hover, 
+#commentform #submit:hover,
+input.button:hover {
+	/*Background*/
+	background: #7e7926; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #8e862e),
+					color-stop(1, #7e7926)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#8e862e 20%,
+					#7e7926 100%
+				);
+}
+
+a.button:active,
+a.button.active,
+input.button:active  {
+	border-color: #8e862e;
+	
+}
+
+a.button.inactive,{
+	border: 1px solid #d5d5d5;
+	border-bottom-color: #e6e2e2;
+	color: #aeaeae;
+	
+	/*Background*/
+	background: #e8e8e8; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #f3f3f3),
+					color-stop(1, #e6e6e6)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#f3f3f3 20%,
+					#e6e6e6 100%
+				);
+	
+}

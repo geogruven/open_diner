@@ -1,0 +1,2897 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Diner v1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-01-11 11:49+0000\n"
+"Last-Translator: admin <magnus@jepson.no>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:8
+#@ woothemes
+msgid "Error 404 - Page not found!"
+msgstr ""
+
+#: 404.php:9
+#@ woothemes
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr ""
+
+#: archive.php:10
+#: archive.php:13
+#: archive.php:16
+#: archive.php:19
+#@ woothemes
+msgid "Archive"
+msgstr ""
+
+#: archive.php:10
+#@ woothemes
+msgid "RSS feed for this section"
+msgstr ""
+
+#: archive.php:22
+#@ woothemes
+msgid "Archive by Author"
+msgstr ""
+
+#: archive.php:25
+#@ woothemes
+msgid "Tag Archives:"
+msgstr ""
+
+#: archive.php:42
+#: taxonomy-menutype.php:43
+#: taxonomy.php:41
+#: template-blog.php:47
+#@ woothemes
+msgid "Read More..."
+msgstr ""
+
+#: archive.php:47
+#: search.php:36
+#: taxonomy-menutype.php:49
+#: taxonomy.php:47
+#: template-blog.php:53
+#@ woothemes
+msgid "Continue Reading"
+msgstr ""
+
+#: archive.php:49
+#: search.php:37
+#: template-blog.php:55
+#@ woothemes
+msgid "Comments ( 0 )"
+msgstr ""
+
+#: archive.php:49
+#: search.php:37
+#: template-blog.php:55
+#@ woothemes
+msgid "Comments ( 1 )"
+msgstr ""
+
+#: archive.php:49
+#: search.php:37
+#: template-blog.php:55
+#@ woothemes
+msgid "Comments ( % )"
+msgstr ""
+
+#: archive.php:57
+#: page.php:35
+#: search.php:45
+#: single-woo_menu.php:90
+#: single.php:40
+#: taxonomy-menutype.php:59
+#: taxonomy.php:57
+#: template-blog.php:63
+#: template-fullwidth.php:28
+#@ woothemes
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:9
+#@ woothemes
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:23
+#@ woothemes
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:23
+#@ woothemes
+msgid "One Response"
+msgstr ""
+
+#: comments.php:23
+#@ woothemes
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:23
+#@ woothemes
+msgid "to"
+msgstr ""
+
+#: comments.php:40
+#@ woothemes
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: comments.php:52
+#@ woothemes
+msgid "No comments yet."
+msgstr ""
+
+#: comments.php:56
+#@ woothemes
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+#@ woothemes
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:68
+#, php-format
+#@ woothemes
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:76
+#@ woothemes
+msgid "You must be"
+msgstr ""
+
+#: comments.php:76
+#@ woothemes
+msgid "logged in"
+msgstr ""
+
+#: comments.php:76
+#@ woothemes
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:84
+#@ woothemes
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:84
+#@ woothemes
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:84
+#@ woothemes
+msgid "Logout"
+msgstr ""
+
+#: comments.php:90
+#: functions/admin-shortcodes.php:1391
+#: includes/custom-post-types/custom-post-type-menu.php:294
+#: template-contact.php:145
+#: woo-table/classes/frontend.class.php:293
+#: woo-table/classes/taxonomy.class.php:269
+#@ woothemes
+msgid "Name"
+msgstr ""
+
+#: comments.php:90
+#: comments.php:95
+#@ woothemes
+msgid "Required"
+msgstr ""
+
+#: comments.php:95
+#@ woothemes
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: comments.php:100
+#@ woothemes
+msgid "Website"
+msgstr ""
+
+#: comments.php:105
+#@ woothemes
+msgid "You can use these tags"
+msgstr ""
+
+#: comments.php:109
+#@ woothemes
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:34
+#@ woothemes
+msgid "All Rights Reserved."
+msgstr ""
+
+#: footer.php:44
+#@ woothemes
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:44
+#@ woothemes
+msgid "Designed by"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2125
+#@ woothemes
+msgid "Woo - Custom Nav Menu"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2314
+#@ woothemes
+msgid "Select Menu:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2340
+#: includes/widgets/widget-woo-blogauthor.php:53
+#: includes/widgets/widget-woo-embed.php:96
+#: includes/widgets/widget-woo-global-search.php:46
+#: includes/widgets/widget-woo-location.php:152
+#: includes/widgets/widget-woo-monthlyspecial.php:74
+#: includes/widgets/widget-woo-news.php:70
+#: includes/widgets/widget-woo-search.php:33
+#: includes/widgets/widget-woo-specials.php:83
+#: includes/widgets/widget-woo-staff.php:65
+#: includes/widgets/widget-woo-twitter.php:40
+#: woo-table/widgets/business-hours.widget.php:150
+#: woo-table/widgets/make-reservation.widget.php:258
+#@ woothemes
+msgid "Title:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2349
+#@ woothemes
+msgid "Advanced Options:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2369
+#@ woothemes
+msgid "Wrap in container DIV:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2382
+#@ woothemes
+msgid "Wrap in container UL:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2397
+#@ woothemes
+msgid "Show Top Level Descriptions:"
+msgstr ""
+
+#: functions/admin-custom-nav.php:2417
+#@ woothemes
+msgid "The Custom Menu has not been configured correctly.  Please check your theme settings before adding this widget."
+msgstr ""
+
+#: functions/admin-express-functions-deprecated.php:194
+#: functions/admin-express-functions.php:210
+#@ default
+msgid "You are not allowed to upload files to this site."
+msgstr ""
+
+#: functions/admin-express-functions-deprecated.php:220
+#: functions/admin-express-functions.php:236
+#, php-format
+#@ default
+msgid "Could not write file %1$s (%2$s)"
+msgstr ""
+
+#: functions/admin-functions.php:1557
+#@ woothemes
+msgid "Search Results"
+msgstr ""
+
+#: functions/admin-functions.php:1558
+#@ woothemes
+msgid "Author Archives"
+msgstr ""
+
+#: functions/admin-functions.php:1561
+#@ woothemes
+msgid "Category Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1562
+#: functions/admin-functions.php:1567
+#@ woothemes
+msgid " Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1563
+#@ woothemes
+msgid "Daily Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1564
+#@ woothemes
+msgid "Monthly Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1565
+#@ woothemes
+msgid "Yearly Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1566
+#@ woothemes
+msgid "Tag Archive"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:58
+#@ default
+msgid "WooFramework Internal Container"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:184
+#@ default
+msgid "Upload"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:221
+#@ woothemes
+msgid "View File"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:414
+#@ woothemes
+msgid "Gallery"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:414
+#@ woothemes
+msgid "Previously Uploaded"
+msgstr ""
+
+#: functions/admin-functions.php:2538
+#: header.php:86
+#@ woothemes
+msgid "Home"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:30
+#: includes/custom-post-types/custom-post-type-menu.php:31
+#: includes/custom-post-types/custom-post-type-menu.php:32
+#@ woothemes
+msgid "Food Menu"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:33
+#: woo-table/classes/posttype.class.php:157
+#@ woothemes
+msgid "Add New"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:34
+#@ woothemes
+msgid "Add New Meal"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:35
+#: includes/theme-comments.php:21
+#: woo-table/classes/posttype.class.php:160
+#@ woothemes
+msgid "Edit"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:36
+#@ woothemes
+msgid "Edit Meal"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:37
+#@ woothemes
+msgid "New Meal"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:38
+#@ woothemes
+msgid "View Meal"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:39
+#@ woothemes
+msgid "Search Menu"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:40
+#@ woothemes
+msgid "No Meals found"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:41
+#@ woothemes
+msgid "No Meals found in trash"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:77
+#: includes/custom-post-types/custom-post-type-menu.php:78
+#@ woothemes
+msgid "Menu Types"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:79
+#: includes/custom-post-types/custom-post-type-menu.php:113
+#@ woothemes
+msgid "Menu Type"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:80
+#@ woothemes
+msgid "Search Menu Types"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:81
+#@ woothemes
+msgid "Popular Menu Types"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:82
+#@ woothemes
+msgid "All Menu Types"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:83
+#@ woothemes
+msgid "Parent Menu Type"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:84
+#@ woothemes
+msgid "Parent Menu Type:"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:85
+#@ woothemes
+msgid "Edit Menu Type"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:86
+#@ woothemes
+msgid "Update Menu Type"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:87
+#@ woothemes
+msgid "Add New Menu Type"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:88
+#@ woothemes
+msgid "New Menu Type Name"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:137
+#@ woothemes
+msgid "On Special"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:153
+#@ woothemes
+msgid "None"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:163
+#, php-format
+#@ woothemes
+msgid "Meal updated. <a href=\"%s\">View meal</a>"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:164
+#: woo-table/classes/posttype.class.php:599
+#: woo-table/classes/taxonomy.class.php:192
+#@ woothemes
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:165
+#: woo-table/classes/posttype.class.php:600
+#: woo-table/classes/taxonomy.class.php:193
+#@ woothemes
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:166
+#@ woothemes
+msgid "Meal updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: includes/custom-post-types/custom-post-type-menu.php:168
+#, php-format
+#@ woothemes
+msgid "Meal restored to revision from %s"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:169
+#, php-format
+#@ woothemes
+msgid "Meal published. <a href=\"%s\">View Meal</a>"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:170
+#@ default
+msgid "Meal saved."
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:171
+#, php-format
+#@ woothemes
+msgid "Meal submitted. <a target=\"_blank\" href=\"%s\">Preview Meal</a>"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:172
+#, php-format
+#@ woothemes
+msgid "Meal scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Meal</a>"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:174
+#: woo-table/classes/posttype.class.php:609
+#: woo-table/classes/taxonomy.class.php:202
+#@ default
+#@ woothemes
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:175
+#, php-format
+#@ woothemes
+msgid "Meal draft updated. <a target=\"_blank\" href=\"%s\">Preview Meal</a>"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:239
+#, php-format
+#@ woothemes
+msgid "%sPlease note:%s The order in which the items are displayed below, is not the same as how they will be displayed in your theme."
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:240
+#@ woothemes
+msgid "The \"display order\" property determines the order in which these items are displayed in your theme, 1 for first, etc..."
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:241
+#@ woothemes
+msgid "Each time a new level begins, start the ordering from 0 or 1 again, for example:"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:243
+#: includes/custom-post-types/custom-post-type-menu.php:244
+#: includes/custom-post-types/custom-post-type-menu.php:257
+#@ woothemes
+msgid "Category"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:243
+#: includes/custom-post-types/custom-post-type-menu.php:244
+#: includes/custom-post-types/custom-post-type-menu.php:246
+#: includes/custom-post-types/custom-post-type-menu.php:247
+#: includes/custom-post-types/custom-post-type-menu.php:249
+#: includes/custom-post-types/custom-post-type-menu.php:250
+#: includes/custom-post-types/custom-post-type-menu.php:251
+#: includes/custom-post-types/custom-post-type-menu.php:254
+#: includes/custom-post-types/custom-post-type-menu.php:257
+#: includes/custom-post-types/custom-post-type-menu.php:297
+#: includes/custom-post-types/custom-post-type-menu.php:354
+#: includes/custom-post-types/custom-post-type-menu.php:383
+#@ woothemes
+msgid "Display Order"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:246
+#: includes/custom-post-types/custom-post-type-menu.php:247
+#: includes/custom-post-types/custom-post-type-menu.php:254
+#@ woothemes
+msgid "Sub-Category"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:249
+#: includes/custom-post-types/custom-post-type-menu.php:250
+#: includes/custom-post-types/custom-post-type-menu.php:251
+#@ woothemes
+msgid "Sub-Sub-Category"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:109
+#: includes/custom-post-types/custom-post-type-menu.php:295
+#@ woothemes
+msgid "Description"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:296
+#@ woothemes
+msgid "Slug"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:298
+#@ woothemes
+msgid "Food Items"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:556
+#@ woothemes
+msgid "View all Meals"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:568
+#: woo-table/classes/posttype.class.php:446
+#@ default
+#@ woothemes
+msgid "Filter"
+msgstr ""
+
+#: includes/featured.php:75
+#@ woothemes
+msgid "Please add some \"Slides\" to the featured slider. "
+msgstr ""
+
+#: includes/theme-comments.php:19
+#@ woothemes
+msgid "at"
+msgstr ""
+
+#: includes/theme-comments.php:20
+#@ woothemes
+msgid "Direct link to this comment"
+msgstr ""
+
+#: includes/theme-comments.php:30
+#@ woothemes
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/theme-custom-post-types.php:78
+#@ woothemes
+msgid "Additional Contact Information"
+msgstr ""
+
+#: includes/theme-custom-post-types.php:83
+#@ woothemes
+msgid "Contact Number"
+msgstr ""
+
+#: includes/theme-custom-post-types.php:87
+#@ woothemes
+msgid "Please enter your Contact Number"
+msgstr ""
+
+#: includes/theme-functions.php:181
+#@ woothemes
+msgid "by"
+msgstr ""
+
+#: includes/theme-functions.php:161
+#: includes/theme-functions.php:182
+#@ woothemes
+msgid "on"
+msgstr ""
+
+#: includes/theme-functions.php:183
+#@ woothemes
+msgid "in"
+msgstr ""
+
+#: includes/theme-functions.php:184
+#: page.php:25
+#@ woothemes
+msgid "{ Edit }"
+msgstr ""
+
+#: includes/theme-functions.php:204
+#@ woothemes
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/theme-functions.php:983
+#@ woothemes
+msgctxt "post type general name"
+msgid "Slides"
+msgstr "Slides"
+
+#: includes/theme-functions.php:984
+#@ woothemes
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr "Slide"
+
+#: includes/theme-functions.php:985
+#@ woothemes
+msgctxt "slide"
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/theme-functions.php:986
+#@ woothemes
+msgid "Add New Slide"
+msgstr ""
+
+#: includes/theme-functions.php:987
+#@ woothemes
+msgid "Edit Slide"
+msgstr ""
+
+#: includes/theme-functions.php:988
+#@ woothemes
+msgid "New Slide"
+msgstr ""
+
+#: includes/theme-functions.php:989
+#@ woothemes
+msgid "View Slide"
+msgstr ""
+
+#: includes/theme-functions.php:990
+#@ woothemes
+msgid "Search Slides"
+msgstr ""
+
+#: includes/theme-functions.php:991
+#@ woothemes
+msgid "No slides found"
+msgstr ""
+
+#: includes/theme-functions.php:992
+#@ woothemes
+msgid "No slides found in Trash"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:10
+#@ woothemes
+msgid "Woo - Adspace Widget"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:53
+#@ woothemes
+msgid "Title (optional):"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:57
+#@ woothemes
+msgid "Ad Code:"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:62
+#@ woothemes
+msgid "Image Url:"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:66
+#@ woothemes
+msgid "Link URL:"
+msgstr ""
+
+#: includes/widgets/widget-woo-adspace.php:70
+#@ woothemes
+msgid "Alt text:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:9
+#@ woothemes
+msgid "Woo - Blog Author Info"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:57
+#@ woothemes
+msgid "Bio:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:61
+#@ woothemes
+msgid "<a href=\"http://www.gravatar.com/\">Gravatar</a> E-mail:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:65
+#@ woothemes
+msgid "Gravatar Size:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:69
+#@ woothemes
+msgid "Gravatar Alignment:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:71
+#@ woothemes
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:72
+#@ woothemes
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:76
+#@ woothemes
+msgid "Read More Text (optional):"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:80
+#@ woothemes
+msgid "Read More URL (optional):"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:84
+#@ woothemes
+msgid "Visible Pages:"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:86
+#@ woothemes
+msgid "All"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:87
+#@ woothemes
+msgid "Home only"
+msgstr ""
+
+#: includes/widgets/widget-woo-blogauthor.php:88
+#@ woothemes
+msgid "Single only"
+msgstr ""
+
+#: includes/widgets/widget-woo-embed.php:11
+#@ woothemes
+msgid "Woo - Embed/Video"
+msgstr ""
+
+#: includes/widgets/widget-woo-embed.php:100
+#@ woothemes
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/widget-woo-embed.php:113
+#@ woothemes
+msgid "Tag:"
+msgstr ""
+
+#: includes/widgets/widget-woo-embed.php:118
+#: includes/widgets/widget-woo-flickr.php:74
+#@ woothemes
+msgid "Size:"
+msgstr ""
+
+#: includes/widgets/widget-woo-embed.php:125
+#@ woothemes
+msgid "Limit (optional):"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:10
+#@ woothemes
+msgid "Woo - Flickr"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:23
+#@ woothemes
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:48
+#@ woothemes
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:52
+#@ woothemes
+msgid "Number:"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:60
+#@ woothemes
+msgid "Type:"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:62
+#@ woothemes
+msgid "User"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:63
+#@ woothemes
+msgid "Group"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:67
+#@ woothemes
+msgid "Sorting:"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:69
+#: includes/widgets/widget-woo-tabs.php:25
+#@ woothemes
+msgid "Latest"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:70
+#@ woothemes
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:76
+#@ woothemes
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/widget-woo-flickr.php:77
+#@ woothemes
+msgid "Medium"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:110
+#: includes/widgets/widget-woo-flickr.php:78
+#@ woothemes
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/widgets/widget-woo-global-search.php:9
+#@ woothemes
+msgid "Woo - Global Search"
+msgstr ""
+
+#: includes/widgets/widget-woo-global-search.php:25
+#: search-form.php:3
+#@ woothemes
+msgid "Enter search keywords"
+msgstr ""
+
+#: includes/widgets/widget-woo-global-search.php:27
+#: search-form.php:5
+#@ woothemes
+msgid "Search"
+msgstr ""
+
+#: includes/widgets/widget-woo-location.php:16
+#@ woothemes
+msgid "Display your Restaurant Location"
+msgstr ""
+
+#: includes/widgets/widget-woo-location.php:22
+#@ woothemes
+msgid "Woo - Location"
+msgstr ""
+
+#: includes/widgets/widget-woo-location.php:156
+#@ woothemes
+msgid "Location Page Template:"
+msgstr ""
+
+#: includes/widgets/widget-woo-location.php:158
+#: includes/widgets/widget-woo-monthlyspecial.php:91
+#: includes/widgets/widget-woo-specials.php:100
+#: includes/widgets/widget-woo-staff.php:71
+#@ default
+#@ woothemes
+msgid "Select a Page:"
+msgstr ""
+
+#: includes/widgets/widget-woo-monthlyspecial.php:11
+#@ woothemes
+msgid "Woo - Monthly Special"
+msgstr ""
+
+#: includes/widgets/widget-woo-monthlyspecial.php:53
+#: includes/widgets/widget-woo-specials.php:62
+#@ woothemes
+msgid "View Our Complete Menu"
+msgstr ""
+
+#: includes/widgets/widget-woo-monthlyspecial.php:78
+#: includes/widgets/widget-woo-specials.php:87
+#@ woothemes
+msgid "Specials Tag:"
+msgstr ""
+
+#: includes/widgets/widget-woo-monthlyspecial.php:82
+#: includes/widgets/widget-woo-specials.php:91
+#@ woothemes
+msgid "Specials Ordering:"
+msgstr ""
+
+#: includes/widgets/widget-woo-monthlyspecial.php:89
+#: includes/widgets/widget-woo-specials.php:98
+#@ woothemes
+msgid "Menu Page Template:"
+msgstr ""
+
+#: includes/widgets/widget-woo-news.php:11
+#@ woothemes
+msgid "Woo - News"
+msgstr ""
+
+#: includes/widgets/widget-woo-news.php:51
+#@ woothemes
+msgid "More news on the blog"
+msgstr ""
+
+#: includes/widgets/widget-woo-news.php:74
+#@ woothemes
+msgid "News Category:"
+msgstr ""
+
+#: includes/widgets/widget-woo-news.php:77
+#@ default
+msgid "Select a Category"
+msgstr ""
+
+#: includes/widgets/widget-woo-search.php:9
+#@ woothemes
+msgid "Woo - Blog Search"
+msgstr ""
+
+#: includes/widgets/widget-woo-specials.php:11
+#@ woothemes
+msgid "Woo - Specials"
+msgstr ""
+
+#: includes/widgets/widget-woo-staff.php:11
+#@ woothemes
+msgid "Woo - Staff"
+msgstr ""
+
+#: includes/widgets/widget-woo-staff.php:47
+#@ woothemes
+msgid "Meet the Rest of the Team"
+msgstr ""
+
+#: includes/widgets/widget-woo-staff.php:69
+#@ woothemes
+msgid "Staff Page Template:"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:10
+#@ woothemes
+msgid "Woo - Tabs"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:24
+#@ woothemes
+msgid "Popular"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:26
+#: template-sitemap.php:50
+#@ woothemes
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:27
+#@ woothemes
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:67
+#@ woothemes
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/widget-woo-tabs.php:72
+#@ woothemes
+msgid "Thumbnail Size (0=disable):"
+msgstr ""
+
+#: includes/widgets/widget-woo-twitter.php:9
+#@ woothemes
+msgid "Woo - Twitter Stream"
+msgstr ""
+
+#: includes/widgets/widget-woo-twitter.php:20
+#@ woothemes
+msgid "Follow"
+msgstr ""
+
+#: includes/widgets/widget-woo-twitter.php:20
+#@ woothemes
+msgid "on Twitter"
+msgstr ""
+
+#: includes/widgets/widget-woo-twitter.php:44
+#@ woothemes
+msgid "Username:"
+msgstr ""
+
+#: includes/widgets/widget-woo-twitter.php:48
+#@ woothemes
+msgid "Limit:"
+msgstr ""
+
+#: search.php:9
+#@ woothemes
+msgid "Search results:"
+msgstr ""
+
+#: search.php:32
+#: single-woo_menu.php:78
+#: taxonomy-menutype.php:44
+#: taxonomy.php:42
+#@ woothemes
+msgid "Average Rating:"
+msgstr ""
+
+#: search.php:37
+#: single-woo_menu.php:80
+#: taxonomy-menutype.php:51
+#: taxonomy.php:49
+#@ woothemes
+msgid "Price per Serving:"
+msgstr ""
+
+#: single-woo_menu.php:65
+#@ default
+msgid "Next page"
+msgstr ""
+
+#: single-woo_menu.php:66
+#@ default
+msgid "Previous page"
+msgstr ""
+
+#: single-woo_menu.php:77
+#: single.php:26
+#@ woothemes
+msgid "Tags: "
+msgstr ""
+
+#: single.php:28
+#@ woothemes
+msgid "Leave a Comment"
+msgstr ""
+
+#: taxonomy-menutype.php:23
+#: taxonomy.php:23
+#@ woothemes
+msgid " Archives:"
+msgstr ""
+
+#: template-archives.php:23
+#@ woothemes
+msgid "The Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:29
+#@ woothemes
+msgid "comments"
+msgstr ""
+
+#: template-archives.php:34
+#: template-sitemap.php:30
+#@ woothemes
+msgid "Categories"
+msgstr ""
+
+#: template-archives.php:41
+#@ woothemes
+msgid "Monthly Archives"
+msgstr ""
+
+#: template-contact.php:18
+#@ woothemes
+msgid "You forgot to enter your name."
+msgstr ""
+
+#: template-contact.php:26
+#@ woothemes
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#: template-contact.php:29
+#@ woothemes
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: template-contact.php:37
+#@ woothemes
+msgid "You forgot to enter your comments."
+msgstr ""
+
+#: template-contact.php:51
+#@ woothemes
+msgid "Contact Form Submission from "
+msgstr ""
+
+#: functions/admin-shortcodes.php:1322
+#: functions/admin-shortcodes.php:1330
+#: template-contact.php:54
+#@ woothemes
+msgid "From: "
+msgstr ""
+
+#: functions/admin-shortcodes.php:1322
+#: functions/admin-shortcodes.php:1330
+#: template-contact.php:54
+#@ woothemes
+msgid "Reply-To: "
+msgstr ""
+
+#: template-contact.php:83
+#@ woothemes
+msgid "You forgot to enter your"
+msgstr ""
+
+#: template-contact.php:90
+#@ woothemes
+msgid "You entered an invalid"
+msgstr ""
+
+#: template-contact.php:100
+#@ woothemes
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr ""
+
+#: functions/admin-shortcodes.php:1352
+#: template-contact.php:119
+#@ woothemes
+msgid "Your email was successfully sent."
+msgstr ""
+
+#: template-contact.php:134
+#@ woothemes
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: functions/admin-shortcodes.php:1369
+#: template-contact.php:138
+#@ woothemes
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1402
+#: template-contact.php:152
+#: template-location.php:287
+#: template-location.php:307
+#: template-menu-full.php:479
+#: template-menu.php:547
+#: woo-table/classes/frontend.class.php:305
+#@ woothemes
+msgid "Email"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1413
+#: template-contact.php:159
+#@ woothemes
+msgid "Message"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1549
+#: template-contact.php:165
+#@ woothemes
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1558
+#: template-contact.php:166
+#@ woothemes
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: functions/admin-shortcodes.php:941
+#: template-contact.php:167
+#@ woothemes
+msgid "Submit"
+msgstr ""
+
+#: template-location.php:114
+#@ woothemes
+msgid "Location"
+msgstr ""
+
+#: template-location.php:118
+#: template-location.php:285
+#@ woothemes
+msgid "Directions"
+msgstr ""
+
+#: template-location.php:120
+#@ woothemes
+msgid "Enter your current location below to generate directions to Diner."
+msgstr ""
+
+#: template-location.php:124
+#@ woothemes
+msgid "Enter your address"
+msgstr ""
+
+#: template-location.php:126
+#@ woothemes
+msgid "Get Directions"
+msgstr ""
+
+#: template-location.php:287
+#@ woothemes
+msgid "Print Directions"
+msgstr ""
+
+#: template-location.php:287
+#@ woothemes
+msgid "Print"
+msgstr ""
+
+#: template-location.php:291
+#@ woothemes
+msgid "Directions go here"
+msgstr ""
+
+#: template-location.php:297
+#: template-menu-full.php:469
+#: template-menu.php:537
+#@ woothemes
+msgid "All form fields are required."
+msgstr ""
+
+#: template-location.php:299
+#: template-menu-full.php:471
+#: template-menu.php:539
+#@ woothemes
+msgid "Your Name"
+msgstr ""
+
+#: template-location.php:303
+#: template-menu-full.php:475
+#: template-menu.php:543
+#@ woothemes
+msgid "Your Friends Name"
+msgstr ""
+
+#: template-menu-full.php:54
+#: template-menu.php:54
+#@ woothemes
+msgid "Send to a friend"
+msgstr ""
+
+#: template-menu-full.php:66
+#@ woothemes
+msgid "your name"
+msgstr ""
+
+#: template-menu-full.php:67
+#@ woothemes
+msgid "your friends name"
+msgstr ""
+
+#: template-menu-full.php:68
+#@ woothemes
+msgid "email"
+msgstr ""
+
+#: template-menu-full.php:70
+#: template-menu.php:70
+#@ woothemes
+msgid "Your name may consist of a-z, 0-9, underscores, begin with a letter."
+msgstr ""
+
+#: template-menu-full.php:71
+#: template-menu.php:71
+#@ woothemes
+msgid "Your friends name may consist of a-z, 0-9, underscores, begin with a letter."
+msgstr ""
+
+#: template-menu-full.php:117
+#: template-menu.php:117
+#@ woothemes
+msgid "Additional Info"
+msgstr ""
+
+#: template-menu-full.php:134
+#: template-menu.php:134
+#@ woothemes
+msgid "Download PDF"
+msgstr ""
+
+#: template-menu-full.php:135
+#: template-menu.php:135
+#@ woothemes
+msgid "Email to Friend"
+msgstr ""
+
+#: template-menu-full.php:139
+#: template-menu.php:139
+#@ woothemes
+msgid "Order by:"
+msgstr ""
+
+#: template-menu-full.php:140
+#: template-menu.php:140
+#@ woothemes
+msgid "Default"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:111
+#: template-menu-full.php:141
+#: template-menu.php:141
+#@ woothemes
+msgid "Price"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:112
+#: template-menu-full.php:142
+#: template-menu.php:142
+#@ woothemes
+msgid "Rating"
+msgstr ""
+
+#: template-menu-full.php:218
+#@ woothemes
+msgid "More"
+msgstr ""
+
+#: template-menu-full.php:218
+#: template-menu.php:226
+#@ woothemes
+msgid "More about this section"
+msgstr ""
+
+#: template-menu-full.php:252
+#: template-menu.php:267
+#@ woothemes
+msgid "(more...)"
+msgstr ""
+
+#: template-sitemap.php:23
+#@ woothemes
+msgid "Pages"
+msgstr ""
+
+#: template-sitemap.php:37
+#@ woothemes
+msgid "Posts per category"
+msgstr ""
+
+#: template-timeline.php:70
+#@ woothemes
+msgid "0 comments"
+msgstr ""
+
+#: template-timeline.php:70
+#@ woothemes
+msgid "1 comment"
+msgstr ""
+
+#: template-timeline.php:70
+#@ woothemes
+msgid "% comments"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:50
+#: woo-table/classes/frontend.class.php:1457
+#: woo-table/settings/process.php:119
+#@ woothemes
+msgid "Sunday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:51
+#: woo-table/classes/frontend.class.php:1458
+#: woo-table/settings/process.php:120
+#@ woothemes
+msgid "Monday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:52
+#: woo-table/classes/frontend.class.php:1459
+#: woo-table/settings/process.php:121
+#@ woothemes
+msgid "Tuesday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:53
+#: woo-table/classes/frontend.class.php:1460
+#: woo-table/settings/process.php:122
+#@ woothemes
+msgid "Wednesday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:54
+#: woo-table/classes/frontend.class.php:1461
+#: woo-table/settings/process.php:123
+#@ woothemes
+msgid "Thursday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:55
+#: woo-table/classes/frontend.class.php:1462
+#: woo-table/settings/process.php:124
+#@ woothemes
+msgid "Friday"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:56
+#: woo-table/classes/frontend.class.php:1463
+#: woo-table/settings/process.php:125
+#@ woothemes
+msgid "Saturday"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:162
+#@ woothemes
+msgid "Please fill out the form below to complete your booking."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:168
+#@ woothemes
+msgid "Please fill out the form below to update your existing booking."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:202
+#@ woothemes
+msgid "Select the date for your reservation:"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:208
+#@ woothemes
+msgid "Reservation Information:"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:213
+#: woo-table/widgets/make-reservation.widget.php:86
+#@ woothemes
+msgid "People"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:248
+#: woo-table/widgets/make-reservation.widget.php:121
+#@ woothemes
+msgid "No tables are currently listed. Please check back soon."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:252
+#: woo-table/widgets/make-reservation.widget.php:128
+#@ woothemes
+msgid "Time"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:298
+#@ woothemes
+msgid "Phone"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:311
+#@ woothemes
+msgid "Notes"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:323
+#@ woothemes
+msgid "I'm at a public computer"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:359
+#@ woothemes
+msgid "View Reservations"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:367
+#: woo-table/widgets/make-reservation.widget.php:197
+#@ woothemes
+msgid "Reserve Table"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:406
+#, php-format
+#@ woothemes
+msgid "Unfortunately, we are closed on %ss. Please select a different date."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:431
+#@ woothemes
+msgid "The email address provided is invalid. Please re-enter your email address."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:460
+#@ woothemes
+msgid "A reservation cannot be made for a date that has already been."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:467
+#@ woothemes
+msgid "Please enter a valid date in YYYY-MM-DD format."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:496
+#@ woothemes
+msgid "Please specify a valid time in HH:MM format."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:509
+#@ woothemes
+msgid "Please enter a valid number for \"\"."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:524
+#@ woothemes
+msgid "Please select a valid number for \"\"."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1149
+#@ woothemes
+msgid "Your reservation has been submitted successfully. As this is a special request, our management has been informed of your request and will contact you timeously to confirm the finer details."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1173
+#@ woothemes
+msgid "Your reservation has been updated successfully. You'll receive an email confirming this with a link should you wish to cancel your booking."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1177
+#@ woothemes
+msgid "Your reservation has been booked successfully. You'll receive an email confirming this with a link should you wish to cancel your booking."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1199
+#: woo-table/classes/manager.class.php:587
+#@ woothemes
+msgid "An issue was encountered while attempting to place your reservation."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1224
+#: woo-table/classes/manager.class.php:611
+#@ woothemes
+msgid "Please correct the following"
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1374
+#@ woothemes
+msgid "There are no tables available at the requested time and date for your sized party. Please try again."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1769
+#@ woothemes
+msgid "Please enter a valid date for your reservation."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1775
+#@ woothemes
+msgid "Please select a valid time for your reservation."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1781
+#@ woothemes
+msgid "Please enter a valid number of people for your reservation."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1787
+#@ woothemes
+msgid "Please enter instructions for your reservation."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1793
+#@ woothemes
+msgid "Please enter your full name."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1799
+#@ woothemes
+msgid "Please enter a valid telephone number for us to contact you on."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1805
+#@ woothemes
+msgid "Please enter your e-mail address."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1811
+#@ woothemes
+msgid "Please select if you are on a public computer (if you are, we won't save your details.)"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:270
+#@ woothemes
+msgid "Reservation Date"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:271
+#@ woothemes
+msgid "Reservation Time"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:272
+#: woo-table/classes/posttype.class.php:573
+#@ woothemes
+msgid "Reservation Details"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:337
+#, php-format
+#@ woothemes
+msgid "Placed %s for %s by %s"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:344
+#@ woothemes
+msgid "Update"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:348
+#@ woothemes
+msgid "Confirm"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:352
+#@ woothemes
+msgid "Cancel"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:356
+#@ woothemes
+msgid "Cancelled"
+msgstr ""
+
+#: woo-table/classes/manager.class.php:372
+#, php-format
+#@ woothemes
+msgid "You have no upcoming reservations. To book one, <a href=\"%s\">visit our online reservations form</a>."
+msgstr ""
+
+#: woo-table/classes/manager.class.php:382
+#, php-format
+#@ woothemes
+msgid "To view your upcoming reservations, you need to have made a reservation with us previously. To view your reservations, simply follow the link e-mailed to you in your reservation confirmation e-mail. To make a reservation, <a href=\"%s\">visit our online reservations form</a>."
+msgstr ""
+
+#: woo-table/classes/manager.class.php:490
+#@ woothemes
+msgid "Your reservation has been cancelled successfully."
+msgstr ""
+
+#: woo-table/classes/manager.class.php:496
+#@ woothemes
+msgid "Your reservation has been confirmed successfully."
+msgstr ""
+
+#: woo-table/classes/manager.class.php:502
+#@ woothemes
+msgid "The status of your reservation has been changed successfully."
+msgstr ""
+
+#: woo-table/classes/manager.class.php:567
+#@ woothemes
+msgid "Your reservation has been booked successfully."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:401
+#@ woothemes
+msgid "A reservation date is required."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:443
+#@ woothemes
+msgid "All Reservations"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:444
+#: woo-table/classes/taxonomy.class.php:274
+#: woo-table/classes/utilities.class.php:202
+#@ woothemes
+msgid "Upcoming Reservations"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:612
+#@ woothemes
+msgid "Reservation date is required. Please select or enter a date in YYYY-MM-DD format."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:637
+#@ woothemes
+msgid "Things to remember when adding or editing a reservation:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:639
+#@ woothemes
+msgid "Specify the name under which the reservation was made in the `Title` field."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:640
+#@ woothemes
+msgid "Specify the reservation date (in YYYY-MM-DD format- example, 2010-08-18). A date picker has been provided."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:641
+#@ woothemes
+msgid "Specify the number of persons for which the reservation is being made."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:643
+#@ woothemes
+msgid "Other important notes when making a reservation:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:645
+#@ woothemes
+msgid "Select the table(s) for which the reservation is being made."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:647
+#: woo-table/classes/taxonomy.class.php:231
+#: woo-table/classes/wootable.class.php:740
+#@ woothemes
+msgid "For more information:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:648
+#@ woothemes
+msgid "<a href=\"#\" target=\"_blank\">WooTable Documentation</a>"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:649
+#@ woothemes
+msgid "<a href=\"#\" target=\"_blank\">WooThemes Support Forums</a>"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:654
+#@ woothemes
+msgid "This screen shows a list of all reservations made through WooTable."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:655
+#@ woothemes
+msgid "To edit a reservation, click the name under which the reservation has been made."
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:691
+#@ default
+msgctxt "column name"
+msgid "Reserved under the name"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:692
+#@ woothemes
+msgid "Date and Time"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:693
+#@ woothemes
+msgid "Table(s) Reserved"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:694
+#@ woothemes
+msgid "Number of persons"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:695
+#@ woothemes
+msgid "Resevation Placed With"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:696
+#@ default
+msgctxt "column name"
+msgid "Reserved On"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:697
+#@ default
+msgctxt "column name"
+msgid "Status"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:153
+#@ woothemes
+msgid "Search "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:154
+#@ woothemes
+msgid "Popular "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:155
+#@ woothemes
+msgid "All "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:156
+#@ woothemes
+msgid "Parent "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:157
+#@ woothemes
+msgid "Parent :"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:158
+#@ woothemes
+msgid "Edit "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:159
+#@ woothemes
+msgid "Update "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:160
+#@ woothemes
+msgid "Add New "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:161
+#@ woothemes
+msgid "New "
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:225
+#@ woothemes
+msgid "Things to remember when adding or editing a table listing:"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:227
+#@ woothemes
+msgid "Specify the name of the table in the `Name` field. This can be a table number as well."
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:228
+#@ woothemes
+msgid "The `slug` field can be used by your theme for displaying reservations for a particular table. Please keep this all lower-case with dashes ( - ) instead of spaces between words."
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:229
+#@ woothemes
+msgid "Specify the number of seats available at the table. Numbers only, please."
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:270
+#@ woothemes
+msgid "Number of seats"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:365
+#: woo-table/classes/taxonomy.class.php:390
+#@ woothemes
+msgid "Number of Seats"
+msgstr ""
+
+#: woo-table/classes/utilities.class.php:323
+#@ woothemes
+msgid "View all"
+msgstr ""
+
+#: woo-table/classes/utilities.class.php:329
+#@ woothemes
+msgid "No reservations have been made yet."
+msgstr ""
+
+#: woo-table/classes/utilities.class.php:362
+#@ woothemes
+msgid "Number of reservations to show:"
+msgstr ""
+
+#: woo-table/classes/utilities.class.php:363
+#@ woothemes
+msgid "(at most 30)"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:445
+#@ woothemes
+msgid "Please specify if you would like all reservation confirmation emails to be CCed to your email address."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:452
+#@ woothemes
+msgid "Please specify the maximum number of people per booking to attempt table combinations."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:459
+#: woo-table/settings/process.php:18
+#@ woothemes
+msgid "Please select the time interval between reservations at a single table."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:466
+#: woo-table/settings/process.php:24
+#@ woothemes
+msgid "Please select the page that is to display the booking form."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:474
+#: woo-table/settings/process.php:30
+#@ woothemes
+msgid "Please select the page that is to display the upcoming bookings."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:482
+#: woo-table/settings/process.php:36
+#@ woothemes
+msgid "Please enter the text you would like to display in the reservation confirmation popup window."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:489
+#@ woothemes
+msgid "Please select the format in which you would like to display booking times on your website's frontend"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:496
+#@ woothemes
+msgid "Please select the format in which you would like to display booking dates on your website's frontend"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:503
+#: woo-table/settings/process.php:54
+#@ woothemes
+msgid "Please select the default status for reservations made from your website's frontend."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:510
+#: woo-table/settings/process.php:60
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Please Confirm\" e-mail message."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:517
+#: woo-table/settings/process.php:66
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Thank You\" e-mail message."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:524
+#: woo-table/settings/process.php:72
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Status Change\" e-mail message to the user."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:531
+#: woo-table/settings/process.php:78
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Special Request\" e-mail message to the user."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:538
+#: woo-table/settings/process.php:84
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Reservation Made\" e-mail message to the administrator."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:545
+#: woo-table/settings/process.php:90
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Status Change\" e-mail message to the administrator."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:552
+#: woo-table/settings/process.php:96
+#@ woothemes
+msgid "Please enter the text you would like to display in the \"Special Request\" e-mail message to the administrator."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:559
+#: woo-table/settings/process.php:102
+#@ woothemes
+msgid "Please enter the text you would like to display on the \"Reserve Table\" button."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:566
+#: woo-table/settings/process.php:108
+#@ woothemes
+msgid "Please enter the text you would like to display on the \"View Reservations\" button."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:623
+#@ woothemes
+msgid "Please specify the business hours, per day, for your restaurant."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:705
+#@ woothemes
+msgid "WooTable"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:705
+#@ woothemes
+msgid "WooTable Settings"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:731
+#@ woothemes
+msgid "Welcome to the WooTable settings screen!"
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:732
+#@ woothemes
+msgid "Here are a few notes on using this screen."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:734
+#@ woothemes
+msgid "<strong>Interval between reservations at a single table:</strong> How long each reservation at a single table is to be."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:735
+#@ woothemes
+msgid "<strong>Bookings Page:</strong> The page that will display the reservation booking form."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:736
+#@ woothemes
+msgid "<strong>Bookings Management Page:</strong> The page that will display a user's upcoming reservations for them to manage."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:737
+#@ woothemes
+msgid "<strong>Reservation confirmation popup message:</strong> The message that is displayed in the confirmation dialog box when a user places a reservation."
+msgstr ""
+
+#: woo-table/classes/wootable.class.php:738
+#@ woothemes
+msgid "<strong>Opening &amp; closing times for each day:</strong> Let WooTable (and your customers) know when you're open on each day of the week."
+msgstr ""
+
+#: woo-table/settings/process.php:42
+#@ woothemes
+msgid "Please select the format in which you would like to display booking times on your website's frontend."
+msgstr ""
+
+#: woo-table/settings/process.php:48
+#@ woothemes
+msgid "Please select the format in which you would like to display booking dates on your website's frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:52
+#@ woothemes
+msgid "WooTable Setup"
+msgstr ""
+
+#: woo-table/settings/screen.php:53
+#@ woothemes
+msgid "Business Hours Setup"
+msgstr ""
+
+#: woo-table/settings/screen.php:54
+#@ woothemes
+msgid "Closed Hours Setup"
+msgstr ""
+
+#: woo-table/settings/screen.php:55
+#@ woothemes
+msgid "E-mails Setup"
+msgstr ""
+
+#: woo-table/settings/screen.php:56
+#@ woothemes
+msgid "Admin E-mails Setup"
+msgstr ""
+
+#: woo-table/settings/screen.php:64
+#@ woothemes
+msgid "Interval between reservations at a single table"
+msgstr ""
+
+#: woo-table/settings/screen.php:72
+#@ woothemes
+msgid "30 minutes"
+msgstr ""
+
+#: woo-table/settings/screen.php:73
+#@ woothemes
+msgid "1 hour"
+msgstr ""
+
+#: woo-table/settings/screen.php:90
+#@ woothemes
+msgid "The average duration of a single reservation at a table."
+msgstr ""
+
+#: woo-table/settings/screen.php:98
+#@ woothemes
+msgid "Bookings Page"
+msgstr ""
+
+#: woo-table/settings/screen.php:107
+#@ woothemes
+msgid "The WordPress page used to display the reservation form."
+msgstr ""
+
+#: woo-table/settings/screen.php:115
+#@ woothemes
+msgid "Bookings Management Page"
+msgstr ""
+
+#: woo-table/settings/screen.php:124
+#@ woothemes
+msgid "The WordPress page used to display and manage a user's upcoming reservations."
+msgstr ""
+
+#: woo-table/settings/screen.php:132
+#@ woothemes
+msgid "Time Format"
+msgstr ""
+
+#: woo-table/settings/screen.php:158
+#@ woothemes
+msgid "The default format that times are displayed in."
+msgstr ""
+
+#: woo-table/settings/screen.php:166
+#@ woothemes
+msgid "Date Format"
+msgstr ""
+
+#: woo-table/settings/screen.php:196
+#@ woothemes
+msgid "The default format that dates are displayed in."
+msgstr ""
+
+#: woo-table/settings/screen.php:204
+#@ woothemes
+msgid "Reservation confirmation popup message"
+msgstr ""
+
+#: woo-table/settings/screen.php:212
+#@ woothemes
+msgid "The message displayed in the popup when the user submits his or her reservation."
+msgstr ""
+
+#: woo-table/settings/screen.php:220
+#@ woothemes
+msgid "\"Reserve Table\" Button Text"
+msgstr ""
+
+#: woo-table/settings/screen.php:228
+#@ woothemes
+msgid "The text on the \"Reserve Table\" button when reserving a table."
+msgstr ""
+
+#: woo-table/settings/screen.php:236
+#@ woothemes
+msgid "\"View Reservations\" Button Text"
+msgstr ""
+
+#: woo-table/settings/screen.php:244
+#@ woothemes
+msgid "The text on the \"View Reservations\" button when reserving a table."
+msgstr ""
+
+#: woo-table/settings/screen.php:252
+#@ woothemes
+msgid "Default Reservation Status"
+msgstr ""
+
+#: woo-table/settings/screen.php:278
+#@ woothemes
+msgid "The default status of a reservation when it is placed on the frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:297
+#@ woothemes
+msgid "Opening Time"
+msgstr ""
+
+#: woo-table/settings/screen.php:327
+#@ woothemes
+msgid "Closing Time"
+msgstr ""
+
+#: woo-table/classes/factory.class.php:79
+#: woo-table/classes/factory.class.php:363
+#: woo-table/settings/screen.php:363
+#: woo-table/settings/screen.php:408
+#@ woothemes
+msgid "Closed"
+msgstr ""
+
+#: woo-table/settings/screen.php:382
+#@ woothemes
+msgid "We're closed on these hours"
+msgstr ""
+
+#: woo-table/settings/screen.php:386
+#@ woothemes
+msgid "Please Read"
+msgstr ""
+
+#: woo-table/settings/screen.php:389
+#@ woothemes
+msgid "The hours displayed on this screen rely on the \"Business Hours\" settings to be setup correctly. If you adjust the times on the \"Business Hours\" page, please be sure to save them and refresh the page before editing the times on this screen."
+msgstr ""
+
+#: woo-table/settings/screen.php:488
+#@ woothemes
+msgid "Only one time slot is available."
+msgstr ""
+
+#: woo-table/settings/screen.php:494
+#@ woothemes
+msgid "No time slots were found. Please check your business hours setup."
+msgstr ""
+
+#: woo-table/settings/screen.php:530
+#@ woothemes
+msgid "\"Please Confirm\" E-mail Message"
+msgstr ""
+
+#: woo-table/settings/screen.php:548
+#@ woothemes
+msgid "\"Thank You\" E-mail Message"
+msgstr ""
+
+#: woo-table/settings/screen.php:566
+#: woo-table/settings/screen.php:655
+#@ woothemes
+msgid "\"Status Has Changed\" E-mail Message"
+msgstr ""
+
+#: woo-table/settings/screen.php:584
+#: woo-table/settings/screen.php:673
+#@ woothemes
+msgid "\"Special Request\" E-mail Message"
+msgstr ""
+
+#: woo-table/settings/screen.php:612
+#: woo-table/settings/screen.php:690
+#@ woothemes
+msgid "E-mail Shortcodes"
+msgstr ""
+
+#: woo-table/settings/screen.php:638
+#@ woothemes
+msgid "\"Reservation Made\" E-mail Message"
+msgstr ""
+
+#: woo-table/widgets/business-hours.widget.php:53
+#@ woothemes
+msgid "WooTable - Business Hours"
+msgstr ""
+
+#: woo-table/widgets/business-hours.widget.php:141
+#@ woothemes
+msgid "Business Hours"
+msgstr ""
+
+#: woo-table/widgets/business-hours.widget.php:155
+#@ woothemes
+msgid "Display times in 12-hour format:"
+msgstr ""
+
+#: woo-table/widgets/make-reservation.widget.php:33
+#@ woothemes
+msgid "Displays a basic reservation form."
+msgstr ""
+
+#: woo-table/widgets/make-reservation.widget.php:39
+#@ woothemes
+msgid "WooTable - Make a Reservation"
+msgstr ""
+
+#: woo-table/widgets/make-reservation.widget.php:253
+#@ woothemes
+msgid "Reservations"
+msgstr ""
+
+#: includes/widgets/widget-woo-location.php:87
+#@ woothemes
+msgid "Please enter your <strong>API Key</strong> before using the maps."
+msgstr ""
+
+#: woo-table/classes/factory.class.php:450
+#@ woothemes
+msgid "Closed."
+msgstr ""
+
+#: woo-table/classes/factory.class.php:454
+#: woo-table/classes/frontend.class.php:1482
+#, php-format
+#@ woothemes
+msgid "We are unfortunately closed on %ss."
+msgstr ""
+
+#: woo-table/classes/factory.class.php:530
+#@ woothemes
+msgid "None."
+msgstr ""
+
+#: woo-table/classes/factory.class.php:534
+#@ woothemes
+msgid "None available."
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1420
+#: woo-table/widgets/make-reservation.widget.php:184
+#@ woothemes
+msgid " at "
+msgstr ""
+
+#: woo-table/classes/frontend.class.php:1441
+#: woo-table/classes/frontend.class.php:1512
+#: woo-table/widgets/make-reservation.widget.php:192
+#, php-format
+#@ woothemes
+msgid "%s for a party of %s"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:247
+#@ woothemes
+msgid "Number of people:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:251
+#@ woothemes
+msgid "Reservation Date:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:252
+#@ woothemes
+msgid "Date format is YYYY-MM-DD- The current date is inserted for you automatically"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:257
+#@ woothemes
+msgid "Reservation Time:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:323
+#@ woothemes
+msgid "Reservation Instructions:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:327
+#@ woothemes
+msgid "Contact Telephone Number:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:331
+#@ woothemes
+msgid "Contact E-mail Address:"
+msgstr ""
+
+#: woo-table/classes/posttype.class.php:335
+#@ woothemes
+msgid "Reservation status:"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:93
+#@ woothemes
+msgid "Table"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:94
+#@ woothemes
+msgid "Tables"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:97
+#@ woothemes
+msgid "The tables available at your restaurant."
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:232
+#: woo-table/classes/wootable.class.php:741
+#, php-format
+#@ woothemes
+msgid "<a href=\"%s\" target=\"_blank\">WooTable Documentation</a>"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:233
+#: woo-table/classes/wootable.class.php:742
+#, php-format
+#@ woothemes
+msgid "<a href=\"%s\" target=\"_blank\">WooThemes Support Forums</a>"
+msgstr ""
+
+#: woo-table/classes/taxonomy.class.php:367
+#: woo-table/classes/taxonomy.class.php:392
+#@ woothemes
+msgid "The number of seats at this table."
+msgstr ""
+
+#: woo-table/classes/utilities.class.php:293
+#, php-format
+#@ woothemes
+msgid "For %s on %s at %s."
+msgstr ""
+
+#: woo-table/settings/screen.php:509
+#, php-format
+#@ woothemes
+msgid "Use %s (Windows) or %s (Mac) to select the times for which your restaurant is closed on a %s."
+msgstr ""
+
+#: woo-table/settings/screen.php:538
+#@ woothemes
+msgid "The e-mail sent to the user, requesting that they please confirm their reservation."
+msgstr ""
+
+#: woo-table/settings/screen.php:539
+#@ woothemes
+msgid "Sent only if the default reservation status is set to \"Unconfirmed\"."
+msgstr ""
+
+#: woo-table/settings/screen.php:556
+#@ woothemes
+msgid "The e-mail sent to the user, thanking them for confirming their reservation."
+msgstr ""
+
+#: woo-table/settings/screen.php:557
+#@ woothemes
+msgid "Sent when the reservation status is set to \"Unconfirmed\", either by default or by the user."
+msgstr ""
+
+#: woo-table/settings/screen.php:574
+#@ woothemes
+msgid "The e-mail sent to the user when the status of their reservation is changed in the frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:575
+#: woo-table/settings/screen.php:664
+#, php-format
+#@ woothemes
+msgid "A special %s shortcode is available here, to display the updated status of the reservation."
+msgstr ""
+
+#: woo-table/settings/screen.php:592
+#@ woothemes
+msgid "The e-mail sent to the user when a special reservation request is made from the frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:615
+#@ woothemes
+msgid "The following shortcodes are available for use in all e-mail messages:"
+msgstr ""
+
+#: woo-table/settings/screen.php:617
+#: woo-table/settings/screen.php:695
+#@ woothemes
+msgid "The name of your restaurant"
+msgstr ""
+
+#: woo-table/settings/screen.php:618
+#: woo-table/settings/screen.php:696
+#@ woothemes
+msgid "The number of people the reservation is for"
+msgstr ""
+
+#: woo-table/settings/screen.php:619
+#: woo-table/settings/screen.php:697
+#@ woothemes
+msgid "The time of the reservation"
+msgstr ""
+
+#: woo-table/settings/screen.php:620
+#: woo-table/settings/screen.php:698
+#@ woothemes
+msgid "The date of the reservation"
+msgstr ""
+
+#: woo-table/settings/screen.php:621
+#: woo-table/settings/screen.php:699
+#@ woothemes
+msgid "Any instructions left by the user"
+msgstr ""
+
+#: woo-table/settings/screen.php:622
+#: woo-table/settings/screen.php:700
+#@ woothemes
+msgid "The user's contact name"
+msgstr ""
+
+#: woo-table/settings/screen.php:623
+#: woo-table/settings/screen.php:701
+#@ woothemes
+msgid "The user's contact telephone number"
+msgstr ""
+
+#: woo-table/settings/screen.php:624
+#: woo-table/settings/screen.php:702
+#@ woothemes
+msgid "The user's contact e-mail address"
+msgstr ""
+
+#: woo-table/settings/screen.php:646
+#@ woothemes
+msgid "The e-mail sent to the administrator when a reservation is made on the frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:663
+#@ woothemes
+msgid "The e-mail sent to the administrator when the status of a reservation is changed in the frontend."
+msgstr ""
+
+#: woo-table/settings/screen.php:681
+#@ woothemes
+msgid "The e-mail sent to the administrator when a special reservation request is made from the frontend."
+msgstr ""
+
+#: functions/admin-functions.php:2416
+#@ woothemes
+msgid "&laquo; Previous"
+msgstr ""
+
+#: functions/admin-functions.php:2417
+#@ woothemes
+msgid "Next &raquo;"
+msgstr ""
+
+#: functions/admin-functions.php:2535
+#@ woothemes
+msgid "You are here:"
+msgstr ""
+
+#: functions/admin-functions.php:2694
+#@ woothemes
+msgid "g:i a"
+msgstr ""
+
+#: functions/admin-functions.php:2697
+#, php-format
+#@ woothemes
+msgid "Minute %1$s"
+msgstr ""
+
+#: functions/admin-functions.php:2697
+#@ woothemes
+msgid "i"
+msgstr ""
+
+#: functions/admin-functions.php:2700
+#@ woothemes
+msgid "g a"
+msgstr ""
+
+#: functions/admin-functions.php:2711
+#: functions/admin-functions.php:2717
+#: functions/admin-functions.php:2722
+#: functions/admin-functions.php:2727
+#@ woothemes
+msgid "Y"
+msgstr ""
+
+#: functions/admin-functions.php:2712
+#: functions/admin-functions.php:2723
+#@ woothemes
+msgid "F"
+msgstr ""
+
+#: functions/admin-functions.php:2713
+#@ woothemes
+msgid "j"
+msgstr ""
+
+#: functions/admin-functions.php:2718
+#, php-format
+#@ woothemes
+msgid "Week %1$s"
+msgstr ""
+
+#: functions/admin-functions.php:2718
+#@ woothemes
+msgid "W"
+msgstr ""
+
+#: functions/admin-functions.php:2734
+#, php-format
+#@ woothemes
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: functions/admin-functions.php:2738
+#@ woothemes
+msgid "404 Not Found"
+msgstr ""
+
+#: functions/admin-shortcodes.php:325
+#@ woothemes
+msgid "No related posts found"
+msgstr ""
+
+#: functions/admin-shortcodes.php:940
+#@ woothemes
+msgid "Message via the contact form"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1237
+#@ woothemes
+msgid "Please enter your name"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1238
+#@ woothemes
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1239
+#@ woothemes
+msgid "Please enter your message"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1361
+#@ woothemes
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#: functions/admin-shortcodes.php:1929
+#: functions/admin-shortcodes.php:1979
+#: functions/admin-shortcodes.php:1995
+#, php-format
+#@ woothemes
+msgid "My %s Profile"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1950
+#@ woothemes
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:51
+#@ woothemes
+msgid "Customize the Shortcode"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:60
+#@ woothemes
+msgid "Preview"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:74
+#@ woothemes
+msgid "Ninja Trouble"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:77
+#, php-format
+#@ woothemes
+msgid "Your version of the WooFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:79
+#: functions/js/shortcode-generator/dialog.php:93
+#@ woothemes
+msgid "What to do now?"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:81
+#@ woothemes
+msgid "Upgrading your theme, or rather the WooFramework portion of it, will do the trick."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:83
+#, php-format
+#@ woothemes
+msgid "The framework is a collection of functionality that all WooThemes have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:85
+#, php-format
+#@ woothemes
+msgid "There's a tutorial on how to do this on WooThemes.com: %sHow to upgradeyour theme%s."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:87
+#@ woothemes
+msgid "<strong>Remember:</strong> Every Ninja has a backup plan. Safe or not, always backup your theme before you update it or make changes to it."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:91
+#@ woothemes
+msgid "Looks like your active theme is not from WooThemes. The shortcode generator only works with themes from WooThemes."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:95
+#@ woothemes
+msgid "Pick a fight: (1) If you already have a theme from WooThemes, install and activate it or (2) if you don't yet have one of the awesome WooThemes head over to the <a href=\"http://www.woothemes.com/themes/\" target=\"_blank\" title=\"WooThemes Gallery\">WooThemes Gallery</a> and get one."
+msgstr ""
+
+#: functions/admin-custom.php:498
+#@ woothemes
+msgid " Custom Settings"
+msgstr ""
+
+#: functions/admin-functions.php:2983
+#@ woothemes
+msgid "WooThemes"
+msgstr ""
+
+#: functions/admin-functions.php:2994
+#@ woothemes
+msgid "Theme Options"
+msgstr ""
+
+#: functions/admin-functions.php:2998
+#@ woothemes
+msgid "Sidebar Manager"
+msgstr ""
+
+#: functions/admin-functions.php:3004
+#@ woothemes
+msgid "Framework Settings"
+msgstr ""
+
+#: functions/admin-functions.php:3007
+#@ woothemes
+msgid "Update Framework"
+msgstr ""
+
+#: functions/admin-interface.php:1611
+#@ woothemes
+msgid "You are not able to update this option because you lack the <code>unfiltered_html</code> capability."
+msgstr ""
+
+#: functions/admin-shortcodes.php:820
+#@ woothemes
+msgid "Hide the Content"
+msgstr ""
+
+#: functions/admin-shortcodes.php:821
+#@ woothemes
+msgid "Show the Content"
+msgstr ""
+
+#: functions/admin-shortcodes.php:828
+#@ woothemes
+msgid "Read More"
+msgstr ""
+
+#: functions/admin-shortcodes.php:829
+#@ woothemes
+msgid "Read Less"
+msgstr ""
+
+#: woo-table/widgets/business-hours.widget.php:47
+#@ woothemes
+msgid "Displays the business hours listed in WooTable in a friendly format."
+msgstr ""
+
+#: includes/theme-functions.php:73
+#@ woothemes
+msgid "&laquo; Newer Entries"
+msgstr ""
+
+#: includes/theme-functions.php:74
+#@ woothemes
+msgid "Older Entries &raquo;"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:108
+#@ woothemes
+msgid "Meal Title"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:186
+#@ woothemes
+msgid "Starters"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:187
+#@ woothemes
+msgid "Mains"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:188
+#@ woothemes
+msgid "Desserts"
+msgstr ""
+
+#: includes/custom-post-types/custom-post-type-menu.php:356
+#: includes/custom-post-types/custom-post-type-menu.php:385
+#@ woothemes
+msgid "The order in which this menu is displayed. 1 for first, etc..."
+msgstr ""
+
+#: template-contact.php:60
+#@ woothemes
+msgid "You emailed"
+msgstr ""
+
+#: template-contact.php:61
+#@ woothemes
+msgid "From:"
+msgstr ""
+

@@ -1,0 +1,16 @@
+.nav li a {_height: 0;zoom: 1;} /* IE7 Fix */
+.button, .button:visited {  padding:7px 6px; margin:0; }
+
+.post-entries  { zoom: 1; }
+.widget li  { zoom: 1; margin: 0 0 0 -15px; }
+.search_module  { zoom: 1; }
+.search_main .main-control .button  { padding-left: 22px; padding-right: 22px; }
+
+.nav-buttons  { left: 558px; top: 30px; right: auto; position: relative;}
+.nav-buttons #p,.nav-buttons #n  {  zoom: 1;}
+.nav-buttons #p  { float: left; }
+.nav-buttons #n  { float: right;width: 23px; }
+.nav-buttons a  { display: inline-block; position: relative; z-index: 9999; }
+.nav-buttons #n a  { margin-top: -15px; }
+.nav-buttons #p a  { margin-top: -17px; }
+#panbut  { z-index: 9999; }

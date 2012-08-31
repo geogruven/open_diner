@@ -1,0 +1,11 @@
+/*
+Theme Name:     PixelPress Commerce
+Theme URI:      http: //woothemes.com/
+Description:    Child theme which optimises PixelPress for WooCommerce compatibility 
+Author:         WooThemes
+Author URI:     http: //woothemes.com
+Template:       pixelpress
+Version:        1.0
+*/
+
+@import url("../pixelpress/style.css");

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+- Custom hover for custom post type icon
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------
+Custom hover for custom post type icon
+----------------------------------------*/
+
+#adminmenu .menu-icon-woomenu div.wp-menu-image { background:transparent url('../images/burger.png') no-repeat center center; }
+#adminmenu .menu-icon-woomenu:hover div.wp-menu-image, #adminmenu .menu-icon-woomenu.wp-has-current-submenu div.wp-menu-image {
+	background:url("../images/burger_active.png") no-repeat scroll center center transparent;
+}
+#adminmenu .menu-icon-woomenu div.wp-menu-image img { display: none; }

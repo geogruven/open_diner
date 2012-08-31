@@ -1,0 +1,19 @@
+/*
+Theme Name:     Diner Manager
+Theme URI:      http://glassmenus.com/diner-manager/
+Description:    Child theme for the Woo Diner theme adding new features.
+Author:         George Aguiar
+Author URI:     http://glassmenus.com
+Template:       diner
+Version:        0.1.0
+
+Notes:          import the original style.css from diner and it must be the first rule in the file, otherwise, it won't be imported.
+
+References:     http://codex.wordpress.org/Child_Themes: Wordpress Codex on Child Themes
+                http://www.woothemes.com/woocodex/theme-structure/: Woothemes
+                        folders: functions: core WooThemes framework files
+
+*/
+
+@import url("../diner/style.css");
+

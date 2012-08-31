@@ -1,0 +1,52 @@
+// PINK ALT STYLE
+/* Imports */
+@import url(../css/mixins.less);
+
+// Colors 
+@color_links: #68B3AF; // Links / Main theme colour 
+@color_body: #9E9E9E; // Body Copy
+// Borders
+@border_main: #e6e6e6; // The 1px grey rules used throughout the WF
+// Backgrounds
+@bg_header: #fff;
+
+body  { 
+	color: @color_body;
+	background: @bg_main;
+}
+
+#header-wrap {
+	background: @bg_header;
+}
+
+#featured {
+	position: relative;
+	.slide {
+		padding: 2.618em 0;
+		min-height: 350px;
+		.vertical_gradient(#95CFB7, #C3DBB4 + #111);
+		.entry {
+			color:darken(@color_links, 15%);
+		}
+	}
+}
+
+.section-title {
+	h1 {
+		color: #68B3AF !important;
+	}
+}
+
+// Buttons
+.follow-link a, a.button,
+a.woo-sc-button.custom,
+a.comment-reply-link, 
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+	border:1px solid #87BDB1;
+	.vertical_gradient(#AACCB1, #87BDB1);
+	&:hover { .vertical_gradient(#AACCB1, #87BDB1 - #222); }
+}

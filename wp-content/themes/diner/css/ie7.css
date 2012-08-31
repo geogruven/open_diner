@@ -1,0 +1,8 @@
+.nav li a {_height: 0;zoom: 1;} /* IE7 Fix */
+.button, .button:visited {  padding:7px 6px; margin:0; }
+.fakebg, .fakebg.second  { display: none; }
+.widget_woo_twitter h3 .username  { margin-top: -24px!important; }
+#menu thead h2 .about-section  { margin-top: -32px; }
+#content.location #directions h4 span  { margin-top: -30px; }
+#main.reservation-page .title .heading-description  { margin-top: -45px; }
+.title{zoom:1;}

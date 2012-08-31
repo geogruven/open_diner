@@ -1,0 +1,55 @@
+/* GRAY STYLESHEET */
+
+body  { background-color: #f7f7f7; }
+
+#navigation, #footer-widgets  {
+	border-color: #6e6e6e;
+	/*BACKGROUND*/
+	background-color: #9e9e9e; /*FALLBACK*/
+}
+
+/*Main link color*/
+a:link, a:visited, #menu tbody .price, .widget_woo_specials h4 .price, .widget_woo_specialsmonthly h4 .price, .widget_recent_comments ul li a, .widget_woo_twitter ul li a  { color: #6e6e6e; }
+
+/*Main link hover color*/
+a:hover, .widget_woo_specials li h4 a:hover .price, .widget_woo_specialsmonthly h4 a:hover .price, .widget_recent_comments ul li a:hover, .widget_woo_twitter ul li a:hover { color: #000; }
+
+/*Nav*/
+.nav a  { color:#e2e2e2;  }
+.nav li ul li a  { color:#e2e2e2!important; }
+
+/*Misc*/
+.nav li ul, #menu .info-bar .order a.active, #menu .info-bar .order a:hover, #footer-widgets #tabs .inside li img.avatar, #footer-widgets #tabs .inside li img.thumbnail  { background-color: #7e7e7e; }
+#header, #header .inside-header, #reservations span, #reservations span.heading, #menu .info-bar .order a.active, #menu .info-bar .order a:hover  { border-color: #7e7e7e; }
+#wootable-calendar-holder table tbody td.ui-datepicker-current-day a, #wootable-calendar-holder table tbody td.ui-datepicker-current-day a:hover  { background-color: #7e7e7e; color: #fff; text-shadow: 1px 1px #000; }
+
+
+/*Footer widgets*/
+#footer-widgets .widgets  { text-shadow: 1px 1px 0 #424242; }
+#footer-widgets a  { color: #fff; text-decoration: underline; }
+#footer-widgets .widget ul li a, #footer-widgets .widget, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets .widget_woo_twitter h3 .username a, #footer-widgets #tabs ul.wooTabs li a, #footer-widgets #tabs .inside li, #footer-widgets #tab-tags a, #footer-widgets #tabs .inside li a, #footer-widgets .widget_tag_cloud a  { color: #fff; }
+#footer-widgets #tabs ul.wooTabs li a.selected, #footer-widgets #tabs ul.wooTabs li a:hover, #footer-widgets .widget_woo_flickr a:hover img, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets #tabs .inside  { background-color: #303030; }
+#footer-widgets #wp-calendar th, #footer-widgets #wp-calendar td, #footer-widgets #tabs .inside li  { border-color: #303030;}
+#footer-widgets .widget h3  { color: #fff; }
+#footer-widgets .widget input.s  { background-color: #303030; border-color: #b4b4b4; }
+#wp-calendar th,#wp-calendar td{color:#9E9E9E;}
+#footer-widgets #tabs .inside li, #footer-widgets #tab-tags { background:#b4b4b4; }
+#footer-widgets #tabs .inside li span.meta  { color: #000; }
+#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover  { color: #fff!important; }
+
+#footer-widgets .widget h3, #footer-widgets .widget_woo_search, #footer-widgets .widget_woo_flickr, #footer-widgets .widget_tag_cloud, #footer-widgets .widget_text, #footer-widgets .widget_woo_twitter ul li, #footer-widgets .adspace-widget, #footer-widgets .widget_woo_blogauthorinfo   { background-image: url(gray/indent-line.png); }
+
+
+/*Buttons*/
+a.button, a.comment-reply-link, #commentform #submit, .search_main .submit, input[type=submit].button, button.ui-state-default {
+	border: 1px solid #6e6e6e; border-bottom-color: #6e6e6e;
+	background: #6e6e6e; /*Fallback*/
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #6e6e6e), color-stop(1, #494949) );
+	background: -moz-linear-gradient( center top, #6e6e6e 20%, #494949 100% );
+}
+
+a.button:hover, a.button.hover, a.button.active, a.comment-reply-link:hover, #commentform #submit:hover, .search_main .submit:hover, input[type=submit].button:hover, button.ui-state-default:hover {
+	background: #5d5d5d; /*Fallback*/
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #5d5d5d), color-stop(1, #373737) );
+	background: -moz-linear-gradient( center top, #5d5d5d 20%, #373737 100% );
+}

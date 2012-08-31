@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------------------------------------
+
+FILE INFORMATION
+
+Description: Main admin area CSS file for the WooTable WordPress plugin.
+Date Created: 2010-08-11.
+Author: Matty.
+Since: 0.0.0.1
+
+
+TABLE OF CONTENTS
+
+- Admin Menu Icon Behaviour
+- Settings Screen
+- Posts List Screen
+- Post Edit Screen
+- Dashboard Widget
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------
+Admin Menu Icon Behaviour
+----------------------------------------*/
+#adminmenu .menu-icon-reservation div.wp-menu-image { background:transparent url('../icons/reservation.png') no-repeat center center; }
+#adminmenu .menu-icon-reservation:hover div.wp-menu-image, #adminmenu .menu-icon-reservation.wp-has-current-submenu div.wp-menu-image { background:transparent url("../icons/reservations_active.png") no-repeat center center; }
+#adminmenu .menu-icon-reservation div.wp-menu-image img { display: none; }
+
+/*----------------------------------------
+Settings Screen
+----------------------------------------*/
+
+body.settings_page_woo-table {}
+	body.settings_page_woo-table #icon-options-general { background: transparent url('../icons/icon-32.png') no-repeat center center; width: 42px; height: 28px; }
+
+/*----------------------------------------
+Posts List Screen
+----------------------------------------*/
+
+#wpbody .wootable_confirmation_message { color: #FFFFFF; padding: 5px; margin-top: 5px; width: 80px; text-align: center; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; }
+.wootable_reservation_confirmed { background: #009900; }
+.wootable_reservation_unconfirmed { background: #E66F00; }
+.wootable_reservation_cancelled { background: #CC0033; }
+
+
+/*----------------------------------------
+Dashboard widget
+----------------------------------------*/
+
+#dashboard_upcoming_reservations {}
+#dashboard_upcoming_reservations .inside  { margin: 0 0 10px; }
+#dashboard_upcoming_reservations .reservation  { padding: 10px 10px; border-bottom: 1px solid #ddd; }
+#dashboard_upcoming_reservations .reservation .alignleft  { width: 70%; }
+#dashboard_upcoming_reservations p.textright { padding: 3px 15px; }
+#dashboard_upcoming_reservations .reservation span.instructions  { display: block; font-size: 11px; line-height: 16px;}
+#dashboard_upcoming_reservations p.no-reservations  { margin-left: 10px; }
+	#dashboard_upcoming_reservations h3.hndle span { background: transparent url(../icons/reservations_active.png) no-repeat left center; padding-left: 25px; }
+		#dashboard_upcoming_reservations h3.hndle span span { background: none; }
+	#dashboard_upcoming_reservations h4 { color: #999999; line-height: 28px; font-weight: normal; margin: 0; }
+		#dashboard_upcoming_reservations h4 span.reservation-title { color: #333333; }
+		#dashboard_upcoming_reservations h4 span.reservation-date { color: #333333; }
+		#dashboard_upcoming_reservations h4 span.reservation-time { color: #333333; }
+	#dashboard_upcoming_reservations .reservation_status { font-size: 11px; color: #FFFFFF; padding: 5px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width: 80px; text-align: center; margin: 5px; }
+	#dashboard_upcoming_reservations .reservation_status_confirmed { background: #009900; }
+	#dashboard_upcoming_reservations .reservation_status_unconfirmed { background: #E66F00; }
+	#dashboard_upcoming_reservations .reservation_status_cancelled { background: #CC0033; }
+	#dashboard_upcoming_reservations .clear { display: block; }
+	
+/*----------------------------------------
+Options Page
+----------------------------------------*/
+#woo_container #content #hours-settings  { padding-bottom: 30px; }
+#woo_container #content #hours-settings .section .controls  { width: 100%; }
+#woo_container #content #hours-settings .controls label  { padding: 0 10px 0 0; }
+#woo_container #content #hours-settings .controls select  { margin: 0 20px 0 0; width: 80px; }
+#woo_container #content #hours-settings .controls input  { width: 25px; margin: 0 0 0 -10px!important; padding: 0; }
+.updated, .error { display:block !important; }
+
+/*----------------------------------------
+Add new Reservation page
+----------------------------------------*/
+#reservation-data p  { float: left; width: 99%; padding: 0 0 20px; border-bottom: 1px solid #ddd; }
+#reservation-data label  { display: block; padding-top: 5px; float: left; width: 20%; font-weight: bold; }
+#reservation-data .right  { float: left; display: block; width: 60%; }
+#reservation-data .right em  { line-height: 25px; }
+#reservation-data .right select  { width: 200px; }
